@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Layout: React.FC<{}> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen">{children}</div>
+      <div className="min-h-screen ">{children}</div>
       <Footer />
     </>
   );

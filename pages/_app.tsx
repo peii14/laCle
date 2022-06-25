@@ -19,9 +19,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 So, the meaning of Barunastra is The Weapons God of the sea."
         ></meta>
       </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <div className="bg-primary">
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
     </>
   );
 }
