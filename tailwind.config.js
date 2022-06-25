@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["'Montserrat',sans-serif"],
+        sec: ["'Cormorant Garamond', serif"]
       },
       height: {        
         '2s': '120vh',      
@@ -17,7 +18,7 @@ module.exports = {
       },
       textColor: {
         primary: "#282828",
-        secondary: "#ffed4a",
+        secondary: "#FEB803",
         danger: "#771011",
         textSecond:"#777777"
       },
