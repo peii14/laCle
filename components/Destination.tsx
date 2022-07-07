@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import s from "../styles/slider.module.css";
 import Image from "next/image";
 import { PrevButton, NextButton, DotButton } from "./CarouselBtn";
+import DestinationCard from "./DestinationCard";
 
 const Destination = () => {
   const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
@@ -33,9 +34,8 @@ const Destination = () => {
   const slide = [
     {
       id: 1,
-      title: "Roboboat 2022",
-      subtitle:
-        "An ongoing project that is asking to be conquered for the sake of our extraordinary dreams",
+      title: "Paris",
+      subtitle: "World Trade Organization",
       btn: "Explore",
       link: "/IRC2022",
     },
@@ -58,45 +58,36 @@ const Destination = () => {
   ];
 
   return (
-    <div>
-      <section className="flex h-screen flex-col justify-center gap-20 bg-primary text-secondary ">
-        <div className="absolute z-0 h-screen w-screen">
-          {/* <Image src={bg} priority /> */}
-        </div>
-        <div className="relative mx-auto grid h-screen max-w-7xl grid-cols-1 grid-rows-2 items-center md:grid-cols-2 md:grid-rows-1  ">
-          <div
-            className={`${s.embla} layout absolute -top-14 flex-col justify-around md:top-0 md:flex md:h-screen`}
-          >
-            <div className={`${s.embla__viewport}`} ref={viewportRef}>
-              <div className={`${s.embla__container} `}>
-                {slide.map((index: any) => (
-                  <div className={`${s.embla__slide} `} key={index.id}>
-                    <div className={`${s.embla__slide__inner}`}>
-                      <div>
-                        
-                      </div>
-                    </div>
+    <section className="">
+      <div className="relative mx-auto  grid h-screen max-w-7xl grid-cols-1 grid-rows-2 items-center md:grid-cols-2 md:grid-rows-1  ">
+        <div className={`${s.embla} `}>
+          <div className={`${s.embla__viewport}`} ref={viewportRef}>
+            <div className={`${s.embla__container} `}>
+              {slide.map((index: any) => (
+                <div className={`${s.embla__slide} `} key={index.id}>
+                  <div className={`${s.embla__slide__inner}`}>
+                    <DestinationCard />
                   </div>
-                ))}
-              </div>
-            </div>
-            <div className="absolute -bottom-20 ml-16 flex flex-row gap-10 py-5 md:bottom-10">
-              <div className={`${s.embla__dots}`}>
-                {scrollSnaps.map((_: any, index: any) => (
-                  <DotButton
-                    key={index}
-                    selected={index === selectedIndex}
-                    onClick={() => scrollTo(index)}
-                  />
-                ))}
-              </div>
-              <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-              <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+                </div>
+              ))}
             </div>
           </div>
+          <div className="">
+            <div className={`${s.embla__dots}`}>
+              {scrollSnaps.map((_: any, index: any) => (
+                <DotButton
+                  key={index}
+                  selected={index === selectedIndex}
+                  onClick={() => scrollTo(index)}
+                />
+              ))}
+            </div>
+            {/* <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+              <NextButton onClick={scrollNext} enabled={nextBtnEnabled} /> */}
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 export default Destination;

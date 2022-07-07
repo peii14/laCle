@@ -66,6 +66,7 @@ const Home: NextPage = () => {
           {" "}
           Top Destination{" "}
         </h1>
+
         <Destination />
       </section>
     </div>
