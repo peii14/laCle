@@ -59,8 +59,8 @@ const Destination = () => {
 
   return (
     <section className="">
-      <div className="relative mx-auto  grid h-screen max-w-7xl grid-cols-1 grid-rows-2 items-center md:grid-cols-2 md:grid-rows-1  ">
-        <div className={`${s.embla} `}>
+      <div className="relative mx-auto max-w-7xl items-center md:grid-cols-2 md:grid-rows-1 mt-10 ">
+        <div className={`${s.embla}`}>
           <div className={`${s.embla__viewport}`} ref={viewportRef}>
             <div className={`${s.embla__container} `}>
               {slide.map((index: any) => (
@@ -72,7 +72,7 @@ const Destination = () => {
               ))}
             </div>
           </div>
-          <div className="">
+          <div className=" mt-10">
             <div className={`${s.embla__dots}`}>
               {scrollSnaps.map((_: any, index: any) => (
                 <DotButton

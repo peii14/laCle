@@ -2,7 +2,7 @@ import Image from "next/image";
 import lyon from "../images/home/lyon.png";
 const DestinationCard = () => {
   return (
-    <div className="w-2/3 mx-auto  relative  ">
+    <div className="w-1/2 mx-auto relative  ">
       <div className="border-2 rounded-t-full w-full -left-10 h-full absolute p-0 border-forth"></div>
       <div className="absolute z-20 text-forth -left-10 ">
         <h1 className="font-sec font-thin ">Lyon Old</h1>

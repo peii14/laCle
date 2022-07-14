@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import her from "../images/home/hero1.png";
 import line from "../images/line.png";
 import Destination from "../components/Destination";
+import Neuromorphism from "../components/Neuromorphism";
 
 const Home: NextPage = () => {
   return (
@@ -66,8 +67,17 @@ const Home: NextPage = () => {
           {" "}
           Top Destination{" "}
         </h1>
-
         <Destination />
+      </section>
+      <section className="mt-20">
+        <h1 className="font-sec text-forth text-center font-thin">
+          Season Destination
+        </h1>
+        <div className="grid grid-cols-2 w-10/12 mt-10">
+          <Neuromorphism isMember={2}>
+            
+          </Neuromorphism>
+        </div>
       </section>
     </div>
   );
