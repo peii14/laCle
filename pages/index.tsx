@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from "next";
-import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
@@ -8,6 +7,10 @@ import her from "../images/home/hero1.png";
 import line from "../images/line.png";
 import Destination from "../components/Destination";
 import Neuromorphism from "../components/Neuromorphism";
+
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
+import Season from "../components/Season";
 
 const Home: NextPage = () => {
   return (
@@ -73,10 +76,11 @@ const Home: NextPage = () => {
         <h1 className="font-sec text-forth text-center font-thin">
           Season Destination
         </h1>
-        <div className="grid grid-cols-2 w-10/12 mt-10">
-          <Neuromorphism isMember={2}>
-            
-          </Neuromorphism>
+        <div className="grid grid-cols-2 gap-10 mx-auto w-7/12 mt-10">
+          <Season status={1} />
+          <Season status={2} />
+          <Season status={3} />
+          <Season status={4} />
         </div>
       </section>
     </div>
