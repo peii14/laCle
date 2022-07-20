@@ -80,10 +80,10 @@ const Home: NextPage = () => {
           Season Destination
         </h1>
         <div className="z-10 grid grid-cols-2 gap-10 mx-auto w-7/12 mt-10">
-          <Season status={1} />
-          <Season status={2} />
-          <Season status={3} />
-          <Season status={4} />
+          <Season status={1} link="/Winter" />
+          <Season status={2} link="/Summer" />
+          <Season status={3} link="/Spring" />
+          <Season status={4} link="/Autumn" />
         </div>
         <div className="absolute z-0 -top-10 ">
           <Image alt="blur" src={blur} width={700} height={700} />

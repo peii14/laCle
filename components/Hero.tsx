@@ -5,9 +5,9 @@ const Hero = (props :any) => {
   return (
     <div className="h-5/6 border-2 border-forth border-opacity-60 ">
       <div className="grid grid-cols-3 grid-rows-3  h-full ">
-        <div className="border-y-2  border-opacity-60 border-forth col-start-1 row-start-2 p-2 text-forth">
+        <div className="border-y-2   border-opacity-60 border-forth col-start-1 row-start-2 py-2 text-forth">
           <h3 className="text-center font-sec font-extralight  ">{props.subTitle}</h3>
-          <p className="text-justify mt-2">{props.content}</p>
+          <p className="text-justify">{props.content}</p>
         </div>
         <div className="border-x-2 relative h-full row-span-3 border-opacity-60 border-forth col-start-2">
           <div className="absolute top-1/2 -translate-y-1/2  ">

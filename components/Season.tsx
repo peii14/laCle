@@ -5,6 +5,7 @@ import spring from "../Animation/spring.json";
 import summer from "../Animation/summer.json";
 import winter from "../Animation/winter.json";
 import Neuromorphism from "./Neuromorphism";
+import Link from "next/link";
 
 const Season = (props: any) => {
   const container = useRef(null);
@@ -48,14 +49,18 @@ const Season = (props: any) => {
         lottie.play();
       }}
     >
-      <Neuromorphism isMember={2}>
-        <div className="w-8/12 flex m-auto " ref={container} />
-        <div>
-          <p className="font-medium text-forth text-center text-3xl ">
-            {content}
-          </p>
-        </div>
-      </Neuromorphism>
+      <Link href={props.link}>
+        <a>
+          <Neuromorphism isMember={2}>
+            <div className="w-8/12 flex m-auto " ref={container} />
+            <div>
+              <p className="font-medium text-forth text-center text-3xl ">
+                {content}
+              </p>
+            </div>
+          </Neuromorphism>
+        </a>
+      </Link>
     </div>
   );
 };
