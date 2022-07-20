@@ -4,7 +4,8 @@ import s from "../styles/slider.module.css";
 import Image from "next/image";
 import { PrevButton, NextButton, DotButton } from "./CarouselBtn";
 import DestinationCard from "./DestinationCard";
-
+import paris from "../images/home/paris.png";
+import lyon from "../images/home/lyon.png";
 const Destination = () => {
   const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
@@ -34,26 +35,18 @@ const Destination = () => {
   const slide = [
     {
       id: 1,
-      title: "Paris",
-      subtitle: "World Trade Organization",
-      btn: "Explore",
+      title: "Lyon Old",
+      title2: "Town",
+      image: lyon,
       link: "/IRC2022",
     },
     {
       id: 2,
-      title: "NALA THESEUS",
-      subtitle:
-        "Presenting the teams hardwork in developing maritime technology advancement. Here is the Theseus.",
-      btn: "Explore",
+      title: "A Night In",
+      title2: "Paris",
+      image: paris,
+
       link: "/Theseus",
-    },
-    {
-      id: 3,
-      title: "TEAMS",
-      subtitle:
-        "Perspectives, ideas, and innovations came different from each of us. But, the way to assemble all of them, that is how a team works.",
-      btn: "Explore",
-      link: "/Team",
     },
   ];
 
@@ -66,7 +59,11 @@ const Destination = () => {
               {slide.map((index: any) => (
                 <div className={`${s.embla__slide} `} key={index.id}>
                   <div className={`${s.embla__slide__inner}`}>
-                    <DestinationCard />
+                    <DestinationCard
+                      header1={index.title}
+                      header2={index.title2}
+                      image={index.image}
+                    />
                   </div>
                 </div>
               ))}

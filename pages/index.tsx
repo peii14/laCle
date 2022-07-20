@@ -96,7 +96,9 @@ const Home: NextPage = () => {
           <Image alt="blur" src={blur} width={500} height={400} />
         </div>
       </section>
-      <section></section>
+      <section>
+        
+      </section>
     </div>
   );
 };
