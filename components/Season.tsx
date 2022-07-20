@@ -38,7 +38,7 @@ const Season = (props: any) => {
   }, [animate]);
   return (
     <div
-      className="cursor-pointer h-full"
+      className="cursor-pointer h-full z-10"
       onMouseEnter={() => {
         lottie.setDirection(1);
         lottie.play();
@@ -51,7 +51,9 @@ const Season = (props: any) => {
       <Neuromorphism isMember={2}>
         <div className="w-8/12 flex m-auto " ref={container} />
         <div>
-          <p className="font-medium text-forth text-center text-3xl ">{content}</p>
+          <p className="font-medium text-forth text-center text-3xl ">
+            {content}
+          </p>
         </div>
       </Neuromorphism>
     </div>

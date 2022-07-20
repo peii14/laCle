@@ -7,6 +7,7 @@ import her from "../images/home/hero1.png";
 import line from "../images/line.png";
 import Destination from "../components/Destination";
 import Neuromorphism from "../components/Neuromorphism";
+import blur from "../images/blur.png";
 
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
@@ -72,17 +73,30 @@ const Home: NextPage = () => {
         </h1>
         <Destination />
       </section>
-      <section className="mt-20">
+      <section className="relative mt-20 ">
         <h1 className="font-sec text-forth text-center font-thin">
           Season Destination
         </h1>
-        <div className="grid grid-cols-2 gap-10 mx-auto w-7/12 mt-10">
+        <div className="z-10 grid grid-cols-2 gap-10 mx-auto w-7/12 mt-10">
           <Season status={1} />
           <Season status={2} />
           <Season status={3} />
           <Season status={4} />
         </div>
+        <div className="absolute z-0 -top-10 ">
+          <Image alt="blur" src={blur} width={700} height={700} />
+        </div>
+        <div className="absolute z-0 -top-10 right-1/3 translate-x-1/2 ">
+          <Image alt="blur" src={blur} width={400} height={500} />
+        </div>
+        <div className="absolute z-0 -bottom-32 ">
+          <Image alt="blur" src={blur} width={500} height={400} />
+        </div>
+        <div className="absolute z-0 -bottom-32 right-32 ">
+          <Image alt="blur" src={blur} width={500} height={400} />
+        </div>
       </section>
+      <section></section>
     </div>
   );
 };
