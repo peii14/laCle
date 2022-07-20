@@ -12,6 +12,8 @@ import blur from "../images/blur.png";
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 import Season from "../components/Season";
+import Testimony from "../components/Testimony";
+import dot from "../images/dot.png";
 
 const Home: NextPage = () => {
   return (
@@ -96,8 +98,11 @@ const Home: NextPage = () => {
           <Image alt="blur" src={blur} width={500} height={400} />
         </div>
       </section>
-      <section>
-        
+      <section className="mt-20 w-1/2 mx-auto relative">
+        <div className="absolute -top-5 -left-5">
+          <Image alt="dot" src={dot} height={70} width={70} />
+        </div>
+        <Testimony />
       </section>
     </div>
   );
