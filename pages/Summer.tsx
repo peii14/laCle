@@ -3,8 +3,30 @@ import SeasonBody from "../components/SeasonBody";
 import summer from "../images/summer/summer.png";
 import dot from "../images/dot.png";
 import Image from "next/image";
+import marsille1 from "../images/summer/marsille1.png";
+import marsille2 from "../images/summer/marsille2.png";
+import versaillers1 from "../images/summer/versaillers1.png";
+import versaillers2 from "../images/summer/versaillers2.png";
 
 const Summer = () => {
+  const contents = [
+    {
+      id: 1,
+      city: "Marseille",
+      image: marsille1,
+      image2: marsille2,
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    },
+    {
+      id: 2,
+      city: "Versailles",
+      image: versaillers1,
+      image2: versaillers2,
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    },
+  ];
   return (
     <div className="layout">
       <div className="h-screen  mt-2">
@@ -20,7 +42,7 @@ const Summer = () => {
           </div>
         </div>
       </div>
-      <SeasonBody />
+      <SeasonBody content={contents} />
     </div>
   );
 };
