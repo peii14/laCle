@@ -18,7 +18,9 @@ const SeasonBody = (props: any) => {
               </div>
             </div>
             <div className="border-x-2 border-b-2 h-full relative border-forth text-forth  border-opacity-60">
-              <h2 className="font-sec text-center font-thin">Marseille</h2>
+              <h2 className="mt-5 font-sec text-center font-thin">
+                {index.city}
+              </h2>
               <div className="absolute -top-5 -left-5">
                 <Image alt="number" src={dot} height={50} width={50} />
                 <h1 className="absolute -bottom-1 left-1/2 -translate-x-1/2 text-numerical">
