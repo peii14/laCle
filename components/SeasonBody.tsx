@@ -27,6 +27,7 @@ const SeasonBody = (props: any) => {
                   {index.id}
                 </h1>
               </div>
+
               <div className="min-h-full">
                 <p className="px-5 pt-2 pb-5 min-h-max ">{index.content}</p>
               </div>
