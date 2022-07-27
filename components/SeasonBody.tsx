@@ -32,6 +32,7 @@ const SeasonBody = (props: any) => {
                 <p className="px-5 pt-2 pb-5 min-h-max ">{index.content}</p>
               </div>
             </div>
+
             <div
               className={`p-5 border-forth border-opacity-60 border-b-2 ${
                 index.id > 1 ? "mt-0" : "-mt-20"
