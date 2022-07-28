@@ -32,6 +32,7 @@ const Destination = () => {
     setScrollSnaps(embla.scrollSnapList());
     embla.on("select", onSelect);
   }, [embla, setScrollSnaps, onSelect]);
+  console.log(selectedIndex);
   const slide = [
     {
       id: 1,
@@ -48,17 +49,31 @@ const Destination = () => {
 
       link: "/Theseus",
     },
+    {
+      id: 3,
+      title: "A Night In",
+      title2: "Paris",
+      image: paris,
+
+      link: "/Theseus",
+    },
   ];
 
   return (
     <section className="">
-      <div className="relative mx-auto max-w-7xl items-center md:grid-cols-2 md:grid-rows-1 mt-10 ">
+      <div className="relative mx-auto max-w-3xl items-center md:grid-cols-2 md:grid-rows-1 mt-10 ">
         <div className={`${s.embla}`}>
-          <div className={`${s.embla__viewport}`} ref={viewportRef}>
+          <div className={`${s.embla__viewport2}`} ref={viewportRef}>
             <div className={`${s.embla__container} `}>
               {slide.map((index: any) => (
                 <div className={`${s.embla__slide} `} key={index.id}>
-                  <div className={`${s.embla__slide__inner}`}>
+                  <div
+                    className={`${
+                      s.embla__slide__inner2
+                    } duration-500 transform-gpu ${
+                      index.id == selectedIndex + 1 ? "scale-110 " : "scale-90"
+                    }`}
+                  >
                     <DestinationCard
                       header1={index.title}
                       header2={index.title2}

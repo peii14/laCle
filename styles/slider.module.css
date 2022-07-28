@@ -10,7 +10,14 @@
 
 .embla__viewport {
   overflow: hidden;
-  width: 80%;
+  width: 100%;
+  margin: auto;
+  height: max-content;
+  
+}
+.embla__viewport2 {
+  overflow: visible;
+  width: 60%;
   margin: auto;
   height: max-content;
   
@@ -37,6 +44,7 @@
 .embla__slide {
   position: relative;
   min-width: 100%;
+  margin: auto;
   /* padding-left: 18px; */
  
   
@@ -44,8 +52,19 @@
 
 .embla__slide__inner {
   position: relative;
+  overflow: hidden;
+  height: fit-content;
+  /* width: 80%; */
+  /* padding:10px 10px; */
+  /* margin:auto; */
+}
+.embla__slide__inner2 {
+  position: relative;
   overflow: visible;
   height: fit-content;
+  width: 80%;
+  padding:10px 10px;
+  margin:auto;
 }
 
 /* .embla__slide__img {

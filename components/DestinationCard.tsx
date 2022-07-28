@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const DestinationCard = (props: any) => {
   return (
-    <div className="w-1/2 mx-auto relative  ">
+    <div className=" mx-auto relative  ">
       <div className="border-2 rounded-t-full w-full -left-10 h-full absolute p-0 border-forth"></div>
       <div className="absolute z-20 text-forth -left-10 ">
         <h1 className="font-sec font-thin ">{props.header1}</h1>

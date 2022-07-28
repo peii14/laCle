@@ -8,7 +8,6 @@ const Hero = (props: any) => {
     function handleScroll() {
       setOffset(window.pageYOffset);
     }
-    console.log(offset);
 
     window.addEventListener("scroll", handleScroll);
     if (offset < 20) {

@@ -8,17 +8,19 @@ import line from "../images/line.png";
 import Destination from "../components/Destination";
 import Neuromorphism from "../components/Neuromorphism";
 import blur from "../images/blur.png";
+import lyon from "../images/home/lyon.png";
+import paris from "../images/home/paris.png";
 
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 import Season from "../components/Season";
 import Testimony from "../components/Testimony";
 import dot from "../images/dot.png";
+import DestinationCard from "../components/DestinationCard";
 
 const Home: NextPage = () => {
   return (
     <div className="layout">
-    
       <div className="h-screen mt-2">
         <Hero content="" subTitle="About Us" title="la Clé" image={her} />
       </div>
