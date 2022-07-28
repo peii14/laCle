@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 // import { config as cfg, dom } from '@fortawesome/fontawesome-svg-core'
 // import '@fortawesome/fontawesome-svg-core/styles.css'
 import Head from "next/head";
-
+import { ParallaxProvider } from "react-scroll-parallax";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -20,9 +20,11 @@ So, the meaning of Barunastra is The Weapons God of the sea."
         ></meta>
       </Head>
       <div className="bg-primary">
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <ParallaxProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ParallaxProvider>
       </div>
     </>
   );

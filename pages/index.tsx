@@ -18,6 +18,7 @@ import dot from "../images/dot.png";
 const Home: NextPage = () => {
   return (
     <div className="layout">
+    
       <div className="h-screen mt-2">
         <Hero content="" subTitle="About Us" title="la Clé" image={her} />
       </div>

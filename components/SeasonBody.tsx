@@ -1,8 +1,24 @@
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 
 import dot from "../images/dot.png";
 
 const SeasonBody = (props: any) => {
+  const [offset, setOffset] = useState(0);
+  useEffect(() => {
+    function handleScroll() {
+      setOffset(window.pageYOffset);
+    }
+    window.addEventListener("scroll", handleScroll);
+
+    if (offset < 20) {
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    } else {
+      return;
+    }
+  }, [offset]);
   return (
     <div className=" border-forth border-x-2 border-opacity-60">
       {props.content.map((index: any) => {
