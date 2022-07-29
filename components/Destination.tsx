@@ -6,6 +6,8 @@ import { PrevButton, NextButton, DotButton } from "./CarouselBtn";
 import DestinationCard from "./DestinationCard";
 import paris from "../images/home/paris.png";
 import lyon from "../images/home/lyon.png";
+import stMichel from "../images/home/stMichel.png";
+
 const Destination = () => {
   const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
@@ -51,9 +53,9 @@ const Destination = () => {
     },
     {
       id: 3,
-      title: "A Night In",
-      title2: "Paris",
-      image: paris,
+      title: "The Wonder",
+      title2: "Land",
+      image: stMichel,
 
       link: "/Theseus",
     },

@@ -29,7 +29,7 @@ const SeasonBody = (props: any) => {
                 index.id > 1 ? "mt-0" : "-mt-20"
               }  h-full`}
             >
-              <div className="w-10/12 mx-auto md:visible hidden  ">
+              <div className="w-10/12 mx-auto md:block hidden  ">
                 <Image alt="mar" src={index.image} />
               </div>
             </div>
@@ -37,9 +37,9 @@ const SeasonBody = (props: any) => {
               <h2 className="mt-5 font-sec text-center font-thin">
                 {index.city}
               </h2>
-              <div className="absolute -top-5 -left-5 md:w-full ">
+              <div className="absolute -top-5 -left-5  ">
                 <Image alt="number" src={dot} height={50} width={50} />
-                <h1 className="absolute -bottom-1 left-1/2 -translate-x-1/2 text-numerical">
+                <h1 className="absolute text-5xl -bottom-1 left-1/2 -translate-x-1/2 text-numerical">
                   {index.id}
                 </h1>
               </div>

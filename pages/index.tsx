@@ -8,8 +8,6 @@ import line from "../images/line.png";
 import Destination from "../components/Destination";
 import Neuromorphism from "../components/Neuromorphism";
 import blur from "../images/blur.png";
-import lyon from "../images/home/lyon.png";
-import paris from "../images/home/paris.png";
 
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
@@ -43,7 +41,7 @@ const Home: NextPage = () => {
               signification utilisée à titre provisoire pour calibrer
             </p>
           </div>
-          <div className="mx-auto md:visible hidden ">
+          <div className="mx-auto md:block hidden ">
             <Image src={line} alt="line" height={500} width={25} />
           </div>
           <div className="basis-2/3 md:my-0 my-10">
