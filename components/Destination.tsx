@@ -61,7 +61,7 @@ const Destination = () => {
 
   return (
     <section className="">
-      <div className="relative mx-auto max-w-3xl items-center md:grid-cols-2 md:grid-rows-1 mt-10 ">
+      <div className="relative mx-auto max-w-5xl p-10 items-center md:grid-cols-2 md:grid-rows-1 mt-10 ">
         <div className={`${s.embla}`}>
           <div className={`${s.embla__viewport2}`} ref={viewportRef}>
             <div className={`${s.embla__container} `}>
@@ -70,7 +70,7 @@ const Destination = () => {
                   <div
                     className={`${
                       s.embla__slide__inner2
-                    } duration-500 transform-gpu ${
+                    } duration-300 transform-gpu ${
                       index.id == selectedIndex + 1 ? "scale-110 " : "scale-90"
                     }`}
                   >

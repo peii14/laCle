@@ -26,9 +26,9 @@ const Home: NextPage = () => {
       </div>
       <section>
         <h1 className="font-sec text-center text-forth font-thin">About Us</h1>
-        <div className="flex flex-row gap-5 max-w-4xl mx-auto text-forth py-10 h-max">
+        <div className="flex md:flex-row flex-col gap-5 max-w-4xl mx-auto text-forth py-10 h-max">
           <div className="basis-2/3 ">
-            <p className="w-11/12">
+            <p className="w-11/12 mx-auto md:px-0 px-5">
               Le lorem ipsum est, en imprimerie, une suite de mots sans
               signification utilisée à titre provisoire pour calibrer une mise
               en page, le texte définitif venant remplacer le faux-texte dès
@@ -43,10 +43,10 @@ const Home: NextPage = () => {
               signification utilisée à titre provisoire pour calibrer
             </p>
           </div>
-          <div className="mx-auto ">
+          <div className="mx-auto md:visible hidden ">
             <Image src={line} alt="line" height={500} width={25} />
           </div>
-          <div className="basis-2/3">
+          <div className="basis-2/3 md:my-0 my-10">
             <h3 className="font-sec text-forth text-center">
               We Love What We Do
             </h3>
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
         <h1 className="font-sec text-forth text-center font-thin">
           Season Destination
         </h1>
-        <div className="z-10 grid grid-cols-2 gap-10 mx-auto w-7/12 mt-10">
+        <div className="z-10 grid md:grid-cols-2 grid-cols-1 gap-10 mx-auto w-7/12 mt-10">
           <Season status={1} link="/Winter" />
           <Season status={2} link="/Summer" />
           <Season status={3} link="/Spring" />
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
           <Image alt="blur" src={blur} width={500} height={400} />
         </div>
       </section>
-      <section className="mt-20 w-1/2 mx-auto relative">
+      <section className="mt-20 md:w-1/2 w-2/3 mx-auto relative">
         <div className="absolute -top-5 -left-5">
           <Image alt="dot" src={dot} height={70} width={70} />
         </div>

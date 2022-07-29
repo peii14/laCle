@@ -42,7 +42,7 @@ const Testimony = () => {
   ];
 
   return (
-    <div className={`${g.glassHeader} p-10 flex flex-row`}>
+    <div className={`${g.glassHeader} md:p-10 p-0 flex flex-row`}>
       <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
       <div className={`${s.embla}`}>
         <div className={`${s.embla__viewport}`} ref={viewportRef}>
@@ -50,7 +50,9 @@ const Testimony = () => {
             {slide.map((index: any) => (
               <div className={`${s.embla__slide} `} key={index.id}>
                 <div className={`${s.embla__slide__inner}`}>
-                  <p className="text-forth p-10 text-center">{index.content}</p>
+                  <p className="text-forth md:p-10 p-5 text-center">
+                    {index.content}
+                  </p>
                 </div>
               </div>
             ))}
