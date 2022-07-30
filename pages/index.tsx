@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section>
-        <h1 className="font-sec text-forth text-center font-thin">
+        <h1 className="font-sec text-forth text-center font-thin mt-10">
           {" "}
           Top Destination{" "}
         </h1>

@@ -33,7 +33,10 @@ const Testimony = () => {
   const slide = [
     {
       id: 1,
-      content: "Lorem",
+      content:
+        " I went to Paris with tour guide from la clé, they know so well about Paris, that was magnificent, especially they took beautiful photos, recommended",
+      author:
+        "Siti Briliani Putri, ministry of public works and public housing of Republic Of Indonesia",
     },
     {
       id: 2,
@@ -42,24 +45,33 @@ const Testimony = () => {
   ];
 
   return (
-    <div className={`${g.glassHeader} md:p-10 p-0 flex flex-row`}>
-      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-      <div className={`${s.embla}`}>
-        <div className={`${s.embla__viewport}`} ref={viewportRef}>
-          <div className={`${s.embla__container} `}>
-            {slide.map((index: any) => (
-              <div className={`${s.embla__slide} `} key={index.id}>
-                <div className={`${s.embla__slide__inner}`}>
-                  <p className="text-forth md:p-10 p-5 text-center">
-                    {index.content}
-                  </p>
+    <div className={`${g.glassHeader} `}>
+      <div className="md:p-5 py-5 flex flex-row">
+        <div className=" m-auto">
+          <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+        </div>
+        <div className={`${s.embla}`}>
+          <div className={`${s.embla__viewport}`} ref={viewportRef}>
+            <div className={`${s.embla__container} `}>
+              {slide.map((index: any) => (
+                <div className={`${s.embla__slide} `} key={index.id}>
+                  <div className={`${s.embla__slide__inner} `}>
+                    <p className="text-forth  text-center italic ">
+                      {index.content}
+                    </p>
+                    <div className="text-forth mt-5 w-11/12 mx-auto">
+                      <p className="text-center text-sm ">{index.author}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
+        <div className=" m-auto">
+          <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+        </div>
       </div>
-      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
     </div>
   );
 };
