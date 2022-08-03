@@ -6,6 +6,7 @@ import gr from "../images/package/group.png";
 import croffle from "../images/package/croffle.png";
 
 import GuidePackage from "../components/GuidePackage";
+import Modal from "../components/Modal";
 const Package = () => {
   return (
     <div className="layout">
@@ -45,6 +46,9 @@ const Package = () => {
               content={" max 6 : Tour guide, Photographer and Uber"}
             />
           </div>
+        </div>
+        <div className="my-20">
+          <Modal btn={"More Information"} />
         </div>
       </section>
     </div>
