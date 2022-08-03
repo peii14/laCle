@@ -1,3 +1,4 @@
+import Bread from "../components/Bread";
 import Hero from "../components/Hero";
 import paris from "../images/package/paris.png";
 const Package = () => {
@@ -6,7 +7,9 @@ const Package = () => {
       <div className="h-screen mt-2">
         <Hero content="" title="Packages" image={paris} />
       </div>
-      <div></div>
+      <div>
+        <Bread />
+      </div>
     </div>
   );
 };

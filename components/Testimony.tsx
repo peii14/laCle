@@ -40,7 +40,15 @@ const Testimony = () => {
     },
     {
       id: 2,
-      content: "Lorem",
+      content:
+        " I travelled with my family, they are family friendly, they know how to play with kids, also great explanation about places from La clé’s tourguide, I like the way they took a photo of my family, it’s awesome",
+      author: "Benoit Turcan, dental technician at 3D Drôme Dental Design",
+    },
+    {
+      id: 3,
+      content:
+        " I had beautiful time in Lyon with tour guide from La Clé, they brought me to see and feel local experience, that was incredible",
+      author: "Katy Briggs, American, Strategy lead for DNV Energy system",
     },
   ];
 

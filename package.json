@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
     "autoprefixer": "^10.4.7",
     "embla-carousel": "^6.2.0",
     "embla-carousel-react": "^6.2.0",
