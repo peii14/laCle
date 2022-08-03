@@ -3,8 +3,8 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Layout from "../components/Layout";
 // import { createGlobalStyle } from 'styled-components'
-// import { config as cfg, dom } from '@fortawesome/fontawesome-svg-core'
-// import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config as cfg, dom } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import Head from "next/head";
 import { ParallaxProvider } from "react-scroll-parallax";
 function MyApp({ Component, pageProps }: AppProps) {

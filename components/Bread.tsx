@@ -1,18 +1,17 @@
 import Image from "next/image";
 import dot from "../images/dot.png";
-import cr from "../images/package/croissant.png";
 
 const Bread = (props: any) => {
   return (
-    <div className="relative w-32">
-      <div className="z-10 absolute">
-        <h2 className="font-sec font-thin">Croissant</h2>
+    <div className="relative  mx-auto">
+      <div className="z-10 absolute w-full">
+        <h2 className="font-sec font-thin text-center">{props.package}</h2>
       </div>
       <div className="z-0 mx-auto w-max">
-        <Image alt="dot" src={dot} width={100} height={100} />
+        <Image alt="dot" src={dot} width={110} height={110} />
       </div>
-      <div className=" absolute top-10">
-        <Image alt="Bread" src={cr} />
+      <div className=" absolute top-10 p-1">
+        <Image alt="Bread" src={props.img} />
       </div>
     </div>
   );

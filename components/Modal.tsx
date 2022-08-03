@@ -1,8 +1,8 @@
-const Package = () => {
+const Modal = () => {
   return (
     <div>
       <div></div>
     </div>
   );
 };
-export default Package;
+export default Modal;
