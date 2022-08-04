@@ -120,7 +120,7 @@ const Package = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="mt-10">
         <h1 className="font-sec text-forth text-center font-thin">
           Destination Package
         </h1>
