@@ -23,7 +23,7 @@ const GuidePackage = (props: any) => {
           </div>
           <div className="z-0 ">
             <AnimateHeight duration={500} height={isOpen ? "auto" : 0}>
-              <p className={`text-center pb-6`}>{props.content}</p>
+              <p className={`text-center pb-10 pt-2`}>{props.content}</p>
             </AnimateHeight>
           </div>
           <FontAwesomeIcon

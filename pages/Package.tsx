@@ -9,6 +9,9 @@ import line from "../images/line.png";
 import GuidePackage from "../components/GuidePackage";
 import Modal from "../components/Modal";
 import Neuromorphism from "../components/Neuromorphism";
+import Frame from "../components/Frame";
+import gle from "../images/package/gle.png";
+import vclass from "../images/package/vclass.png";
 const Package = () => {
   const list = [
     {
@@ -50,7 +53,7 @@ const Package = () => {
             <GuidePackage
               img={cr}
               package={"Croissant"}
-              content={" max 6 : Tour guide, Photographer and Uber"}
+              content={"max 6 : Tour guide, Photographer and Van or monospace"}
             />
           </div>
           <div className="basis-1/4">
@@ -64,19 +67,57 @@ const Package = () => {
             <GuidePackage
               img={pain}
               package={"Pain au chocolat"}
-              content={" max 6 : Tour guide, Photographer and Uber"}
+              content={"Tour guide, Photographer, Uber "}
             />
           </div>
           <div className="basis-1/4">
             <GuidePackage
               img={gr}
               package={"Baguette"}
-              content={" max 6 : Tour guide, Photographer and Uber"}
+              content={"Tour guide, Photogrqpher and Public transport"}
             />
           </div>
         </div>
         <div className="my-20 z-40">
-          <Modal btn={"More Information"} title={"Additional Information"} content={list}  />
+          <Modal
+            btn={"More Information"}
+            title={"Additional Information"}
+            content={list}
+          />
+        </div>
+      </section>
+      <section>
+        <h1 className="font-sec text-forth text-center font-thin">
+          Transport Option
+        </h1>
+        <div className="flex md:flex-row flex-col gap-20 p-10 text-forth justify-center">
+          <div className="basis-1/2">
+            <Frame>
+              <h2 className="font-sec text-center ">Mercedes V Class</h2>
+              <div className="w-1/2 mx-auto py-5">
+                <Image alt="Vclass" src={vclass} />
+              </div>
+              <p className="p-5">
+                With the Mercedes-Benz V-Class, families travel in an even more
+                relaxed manner, leisure-time adventurers experience every moment
+                even more intensely and shuttle passengers reach their
+                destination as comfortably and stylishly as never before.
+              </p>
+            </Frame>
+          </div>
+          <div className="basis-1/2">
+            <Frame>
+              <h2 className="font-sec text-center ">Mercedes GLE</h2>
+              <div className="w-1/2 mx-auto py-5">
+                <Image alt="Vclass" src={gle} />
+              </div>
+              <p className="p-5">
+                Inside, the dynamic off-roader is designed for your comfort,
+                making long distances a breeze. Take a look at an interior that
+                makes every journey one to savour.
+              </p>
+            </Frame>
+          </div>
         </div>
       </section>
       <section>
