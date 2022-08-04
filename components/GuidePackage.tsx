@@ -18,10 +18,10 @@ const GuidePackage = (props: any) => {
     >
       <Card>
         <div className="relative flex flex-col items-center">
-          <div className=" z-20 h-36 w-full duration-500 group-hover:-translate-y-5">
+          <div className="z-10 h-36 w-full duration-500 group-hover:-translate-y-5">
             <Bread img={props.img} package={props.package} />
           </div>
-          <div className="z-10 ">
+          <div className="z-0 ">
             <AnimateHeight duration={500} height={isOpen ? "auto" : 0}>
               <p className={`text-center pb-6`}>{props.content}</p>
             </AnimateHeight>
