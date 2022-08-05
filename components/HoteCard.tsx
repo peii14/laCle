@@ -17,9 +17,11 @@ const HoteCard = (props: any) => {
         className={`${g.Glass} group-hover:-translate-y-10 duration-500 -bottom-11 z-10 absolute w-full`}
       >
         <h3 className="font-sec text-forth py-1">{props.city}</h3>
-        <div className="z-10 ">
+        <div className={`z-10 text-xs`}>
           <AnimateHeight duration={500} height={isOpen ? "auto" : 0}>
-            <p className=" pb-10 pt-5 text-center">{props.content}</p>
+            <p className="my-1">{props.content1}</p>
+            <p className="my-1">{props.content2}</p>
+            <p className="my-1 mb-7">{props.content3}</p>
           </AnimateHeight>
         </div>
         <div className="relative h-9 ">

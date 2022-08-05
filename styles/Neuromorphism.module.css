@@ -32,7 +32,8 @@
 }
 .NeuroDisc:hover{
   
-  --tw-shadow: inset 10px 5px 15px 0 rgba(0, 0, 0, 0.1);
+  /* background: #394B39; */
+  --tw-shadow: inset 10px 5px 15px 0 #8c684154;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);;
 }

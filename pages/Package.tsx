@@ -136,11 +136,12 @@ const Package = () => {
               Table d’hôte
             </h2>
             <div className="">
-              <p className="max-w-sm mx-auto">
+              <p className="max-w-sm mx-auto p-7">
                 Sit back and relax our guide has plans for you. Expect the
                 unexpected.
               </p>
             </div>
+            {/* BUG */}
             <Hote />
           </div>
           <div className="mx-auto md:block hidden ">
@@ -150,26 +151,24 @@ const Package = () => {
             <h2 className="font-sec text-forth text-center font-thin">
               à la cartes
             </h2>
-            <div className="p-10">
+            <div className="p-7">
               <p className="max-w-sm mx-auto">
                 Feel free to create your own itinerary!! You can contact with us
                 by choosing one of the options below.
               </p>
               <div className="flex flex-row justify-center gap-10 mt-10 text-lg text-primary">
-                <div className="basis-1/2 cursor-pointer">
+                <div className="basis-1/2 cursor-pointer group">
                   <Neuromorphism isMember={3}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row ">
                       <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                       <p className="m-auto">Whatsapp</p>
                     </div>
                   </Neuromorphism>
                 </div>
-                <div className="basis-1/2 cursor-pointer group duration-300">
+                <div className="basis-1/2 cursor-pointer group">
                   <Neuromorphism isMember={3}>
-                    <div className="flex flex-row">
-                      <div className=" duration-300">
-                        <FontAwesomeIcon icon={faGoogle} size="2x" />
-                      </div>
+                    <div className="flex flex-row  ">
+                      <FontAwesomeIcon icon={faGoogle} size="2x" />
                       <p className="m-auto">Gmail</p>
                     </div>
                   </Neuromorphism>
@@ -187,18 +186,20 @@ const Package = () => {
           <Image alt="dot" src={dot} height={70} width={70} />
         </div>
         <div className={`${g.glassHeader} text-forth `}>
-          <h2 className="font-sec text-center">Terms and Condition</h2>
-          <div className="mt-5 px-5">
-            <p className="text-lg">cancelation:</p>
-            <ul className="ml-5 list-decimal">
-              <li>
-                <p>
-                  If a cancellation is requested on or D-7 before the tour,
-                  there will be no charge; otherwise, there will be a charge
-                  equal to 50% of the fee that has already been paid.
-                </p>
-              </li>
-            </ul>
+          <div className="p-10">
+            <h2 className="font-sec text-center">Terms and Condition</h2>
+            <div className="mt-5 px-5">
+              <p className="text-lg">cancelation:</p>
+              <ul className="ml-5 list-decimal">
+                <li>
+                  <p>
+                    If a cancellation is requested on or D-7 before the tour,
+                    there will be no charge; otherwise, there will be a charge
+                    equal to 50% of the fee that has already been paid.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

@@ -34,24 +34,31 @@ const Hote = () => {
       id: 1,
       img: paris,
       city: "Paris",
-      content: "asdasdasd",
+      content1:
+        "1st day : Eiffel, Musée du Louvre, Arch de triomphe, Champs-Elysées, sacré cœur",
+      content2: "2nd day : Disneyland & Jardin du Luxembourg",
+      content3:
+        "3rd day : Shopping (la vale village) / Chateau de Versailles, Galerie Lafayette",
     },
     {
       id: 2,
       img: lyon,
       city: "Lyon",
-      content: "asdasdasd",
+      content1:
+        "1st day : Vieux Lyon, placé bellecour, cathédrale & Gallo Romain, Hall Paul bocuse ",
     },
     {
       id: 3,
       img: mar,
       city: "Marseille",
-      content: "asdasdasd",
+      content1:
+        "1st day : vieux port, basilique notre dam de la garde, Mucem (musée de civilisation de l’Europe et méditerranéen)",
+      content2: "2nd day: George de verdon & lavender",
     },
   ]);
 
   return (
-    <div className="md:p-5 py-5 flex flex-row">
+    <div className="flex flex-row">
       <div className=" m-auto">
         <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
       </div>
@@ -64,7 +71,9 @@ const Hote = () => {
                   <HoteCard
                     img={index.img}
                     city={index.city}
-                    content={index.content}
+                    content1={index.content1}
+                    content2={index.content2}
+                    content3={index.content3}
                   />
                 </div>
               </div>
