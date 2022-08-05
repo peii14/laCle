@@ -12,6 +12,12 @@ import Neuromorphism from "../components/Neuromorphism";
 import Frame from "../components/Frame";
 import gle from "../images/package/gle.png";
 import vclass from "../images/package/vclass.png";
+import g from "../styles/Glassmorphism.module.css";
+import dot from "../images/dot.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import Hote from "../components/hote";
+
 const Package = () => {
   const list = [
     {
@@ -129,14 +135,13 @@ const Package = () => {
             <h2 className="font-sec text-forth text-center font-thin">
               Table d’hôte
             </h2>
-            <div className="p-5">
+            <div className="">
               <p className="max-w-sm mx-auto">
-                Sit back and relax our guide has plans for you.
-                <br />
-                Expect the unexpected.
+                Sit back and relax our guide has plans for you. Expect the
+                unexpected.
               </p>
-              <div></div>
             </div>
+            <Hote />
           </div>
           <div className="mx-auto md:block hidden ">
             <Image src={line} alt="line" height={500} width={25} />
@@ -147,20 +152,54 @@ const Package = () => {
             </h2>
             <div className="p-10">
               <p className="max-w-sm mx-auto">
-                Feel free to create your own itinerary!!
-                <br />
-                <br />
-                You can contact with us by choosing one of the options below.
+                Feel free to create your own itinerary!! You can contact with us
+                by choosing one of the options below.
               </p>
-              <div className="flex flex-row justify-center gap-10 mt-10">
-                <Neuromorphism></Neuromorphism>
-                <Neuromorphism></Neuromorphism>
+              <div className="flex flex-row justify-center gap-10 mt-10 text-lg text-primary">
+                <div className="basis-1/2 cursor-pointer">
+                  <Neuromorphism isMember={3}>
+                    <div className="flex flex-row">
+                      <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+                      <p className="m-auto">Whatsapp</p>
+                    </div>
+                  </Neuromorphism>
+                </div>
+                <div className="basis-1/2 cursor-pointer group duration-300">
+                  <Neuromorphism isMember={3}>
+                    <div className="flex flex-row">
+                      <div className=" duration-300">
+                        <FontAwesomeIcon icon={faGoogle} size="2x" />
+                      </div>
+                      <p className="m-auto">Gmail</p>
+                    </div>
+                  </Neuromorphism>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="mt-10">
           <Modal btn={"Booking"} />
+        </div>
+      </section>
+      <section className=" relative mt-10 max-w-2xl mx-auto">
+        <div className="absolute -top-5 -left-5">
+          <Image alt="dot" src={dot} height={70} width={70} />
+        </div>
+        <div className={`${g.glassHeader} text-forth `}>
+          <h2 className="font-sec text-center">Terms and Condition</h2>
+          <div className="mt-5 px-5">
+            <p className="text-lg">cancelation:</p>
+            <ul className="ml-5 list-decimal">
+              <li>
+                <p>
+                  If a cancellation is requested on or D-7 before the tour,
+                  there will be no charge; otherwise, there will be a charge
+                  equal to 50% of the fee that has already been paid.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>

@@ -23,17 +23,18 @@
   -webkit-transition-duration: 0.3s;
   -ms-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
-  background: #f0f0f04d;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
-  border-radius: 15px;
-  padding: 10px 10px;
+  background: #ECCFAF;
+  box-shadow: -10px -10px 30px #394B39, 10px 10px 30px rgba(29, 37, 34, 0.528);
+  border-radius: 20px;
+  padding: 20px ;
   width: 100%;
   height: 100%;
 }
 .NeuroDisc:hover{
-  --tw-shadow: inset 10px 5px 15px 0 rgba(0, 0, 0, 0);
+  
+  --tw-shadow: inset 10px 5px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);;
 }
 .NeuroMember {
   transition: box-shadow 0.3s ease-in-out;
