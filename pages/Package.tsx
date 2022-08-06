@@ -157,22 +157,33 @@ const Package = () => {
                 by choosing one of the options below.
               </p>
               <div className="flex flex-row justify-center md:gap-10 gap-5 mt-10 text-lg text-primary">
-                <div className="basis-1/2 cursor-pointer group">
+                <a
+                  href="https://wa.me/33611436875"
+                  target={"_blank"}
+                  className="basis-1/2 cursor-pointer group"
+                  rel="noreferrer"
+                >
                   <Neuromorphism isMember={3}>
                     <div className="flex flex-row gap-3 ">
                       <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                       <p className="m-auto">Whatsapp</p>
                     </div>
                   </Neuromorphism>
-                </div>
-                <div className="basis-1/2 cursor-pointer group">
+                </a>
+                {/* change email */}
+                <a
+                  className="basis-1/2 cursor-pointer group"
+                  href="mailto:blabla@gmail.com"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
                   <Neuromorphism isMember={3}>
                     <div className="flex flex-row gap-3 ">
                       <FontAwesomeIcon icon={faGoogle} size="2x" />
                       <p className="m-auto">Gmail</p>
                     </div>
                   </Neuromorphism>
-                </div>
+                </a>
               </div>
             </div>
           </div>
