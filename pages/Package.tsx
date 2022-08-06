@@ -148,7 +148,7 @@ const Package = () => {
             <Image src={line} alt="line" height={500} width={25} />
           </div>
           <div className="basis-1/2">
-            <h2 className="font-sec text-forth text-center font-thin">
+            <h2 className="font-sec md:mt-0 mt-10 text-forth text-center font-thin">
               à la cartes
             </h2>
             <div className="p-7">
@@ -156,10 +156,10 @@ const Package = () => {
                 Feel free to create your own itinerary!! You can contact with us
                 by choosing one of the options below.
               </p>
-              <div className="flex flex-row justify-center gap-10 mt-10 text-lg text-primary">
+              <div className="flex flex-row justify-center md:gap-10 gap-5 mt-10 text-lg text-primary">
                 <div className="basis-1/2 cursor-pointer group">
                   <Neuromorphism isMember={3}>
-                    <div className="flex flex-row ">
+                    <div className="flex flex-row gap-3 ">
                       <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                       <p className="m-auto">Whatsapp</p>
                     </div>
@@ -167,7 +167,7 @@ const Package = () => {
                 </div>
                 <div className="basis-1/2 cursor-pointer group">
                   <Neuromorphism isMember={3}>
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row gap-3 ">
                       <FontAwesomeIcon icon={faGoogle} size="2x" />
                       <p className="m-auto">Gmail</p>
                     </div>
@@ -181,14 +181,14 @@ const Package = () => {
           <Modal btn={"Booking"} />
         </div>
       </section>
-      <section className=" relative mt-10 max-w-2xl mx-auto">
+      <section className=" relative mt-10 md:w-full w-4/6 max-w-2xl mx-auto">
         <div className="absolute -top-5 -left-5">
           <Image alt="dot" src={dot} height={70} width={70} />
         </div>
         <div className={`${g.glassHeader} text-forth `}>
-          <div className="p-10">
+          <div className="md:p-10 p-3">
             <h2 className="font-sec text-center">Terms and Condition</h2>
-            <div className="mt-5 px-5">
+            <div className="md:mt-5 mt-2 md:px-5">
               <p className="text-lg">cancelation:</p>
               <ul className="ml-5 list-decimal">
                 <li>
