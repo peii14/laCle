@@ -16,7 +16,7 @@ import g from "../styles/Glassmorphism.module.css";
 import dot from "../images/dot.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import Hote from "../components/hote";
+import Hote from "../components/Hote";
 
 const Package = () => {
   const list = [
