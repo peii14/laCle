@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import paris from "../images/package/paris.png";
+import paris from "../images/package/package.jpg";
 import cr from "../images/package/croissant.png";
 import pain from "../images/package/painchoco.png";
 import gr from "../images/package/group.png";
@@ -89,6 +89,7 @@ const Package = () => {
             btn={"More Information"}
             title={"Additional Information"}
             content={list}
+            which={2}
           />
         </div>
       </section>
@@ -156,7 +157,7 @@ const Package = () => {
                 Feel free to create your own itinerary!! You can contact with us
                 by choosing one of the options below.
               </p>
-              <div className="flex flex-row justify-center md:gap-10 gap-5 mt-10 text-lg text-primary">
+              <div className="flex md:flex-row flex-col md:w-full w-10/12 mx-auto justify-center md:gap-10 gap-5 mt-10 text-lg text-primary">
                 <a
                   href="https://wa.me/33611436875"
                   target={"_blank"}
@@ -173,7 +174,7 @@ const Package = () => {
                 {/* change email */}
                 <a
                   className="basis-1/2 cursor-pointer group"
-                  href="mailto:blabla@gmail.com"
+                  href="mailto:lacle.guide@gmail.com"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -189,7 +190,7 @@ const Package = () => {
           </div>
         </div>
         <div className="mt-10">
-          <Modal btn={"Booking"} />
+          <Modal btn={"Booking"} title={"Booking"} which={1} />
         </div>
       </section>
       <section className=" relative mt-10 md:w-full w-4/6 max-w-2xl mx-auto">
@@ -207,6 +208,22 @@ const Package = () => {
                     If a cancellation is requested on or D-7 before the tour,
                     there will be no charge; otherwise, there will be a charge
                     equal to 50% of the fee that has already been paid.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="md:mt-5 mt-2 md:px-5">
+              <p className="text-lg">Booking:</p>
+              <ul className="ml-5 list-decimal">
+                <li>
+                  <p>
+                    Propose your reservation at least 7 days before your trip.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    There will be opportunities to reservate 7 days before your
+                    trip, but there will be adjustment to your transport price.
                   </p>
                 </li>
               </ul>

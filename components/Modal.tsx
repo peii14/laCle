@@ -1,5 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const Modal = (props: any) => {
   let [isOpen, setIsOpen] = useState(false);
@@ -66,6 +68,53 @@ const Modal = (props: any) => {
                         );
                       })}
                   </ul>
+                  {(() => {
+                    if (props.which === 1) {
+                      return (
+                        <>
+                          <p>
+                            Our booking system is under maintenance. For now,
+                            you can contact us through Gmail or WhatsApp. Please
+                            declare your name, and packages that you are
+                            interested in us, feel free to ask!
+                          </p>
+                          <div className="flex md:flex-row flex-col w-10/12 mx-auto md:w-full justify-center md:gap-10 gap-5 my-10 text-lg text-primary">
+                            <a
+                              href="https://wa.me/33611436875"
+                              target={"_blank"}
+                              className="basis-1/2 cursor-pointer py-3 px-5 bg-third duration-500 hover:shadow-inner rounded-lg shadow-md shadow-black"
+                              rel="noreferrer"
+                            >
+                              <div className="">
+                                <div className="flex flex-row gap-3 ">
+                                  <FontAwesomeIcon
+                                    icon={faWhatsapp}
+                                    size="2x"
+                                  />
+                                  <p className="m-auto">Whatsapp</p>
+                                </div>
+                              </div>
+                            </a>
+                            <a
+                              className="basis-1/2 cursor-pointer group py-3 px-5 bg-third duration-500 hover:shadow-inner rounded-lg shadow-md shadow-black"
+                              href="mailto:lacle.guide@gmail.com"
+                              target={"_blank"}
+                              rel="noreferrer"
+                            >
+                              <div>
+                                <div className="flex flex-row gap-3 ">
+                                  <FontAwesomeIcon icon={faGoogle} size="2x" />
+                                  <p className="m-auto">Gmail</p>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </>
+                      );
+                    } else {
+                      return <div></div>;
+                    }
+                  })()}
                   <div className="mt-4">
                     <button
                       type="button"
