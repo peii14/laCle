@@ -23,13 +23,13 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="text-forth border-x-2 border-t-2 border-forth border-opacity-60  flex flex-col">
+      <div className="text-forth md:border-x-2 border-t-2 border-forth border-opacity-60  flex flex-col">
         <div className="relative">
           <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 top-0 z-10 w-max ">
             Hari Restu Septi Aji
           </h3>
         </div>
-        <div className="m-auto z-0 p-10 w-max border-x-2 border-forth border-opacity-60">
+        <div className="m-auto z-0 p-10 md:w-max w-11/12 md:border-b-0 border-b-2 border-x-2 border-forth border-opacity-60">
           <Image alt={"hari"} src={hari} width={350} height={350} />
         </div>
         <div className="relative w-1/3 mx-auto">
@@ -58,8 +58,8 @@ const Team = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-row justify-center gap-0 border-y-2 border-forth border-opacity-60">
-          <div className="flex flex-row ">
+        <div className="flex md:flex-row md:gap-0 flex-col justify-center gap-16 md:border-y-2 md:py-0 py-16 border-b-2 md:border-x-0 md:w-full w-11/12 mx-auto border-x-2 border-forth border-opacity-60">
+          <div className="flex md:flex-row flex-row-reverse mt-0 md:w-max md:mx-0 mx-auto w-11/12 ">
             <div className="basis-1/12 m-auto">
               <h3
                 className="rotate-180 font-sec font-thin text-center "
@@ -68,7 +68,7 @@ const Team = () => {
                 Chief Marketing Officer
               </h3>
             </div>
-            <div className="basis-11/12 p-10 w-max border-l-2 border-forth border-opacity-60 relative">
+            <div className="basis-11/12 md:p-10 w-max md:border-l-2 border-forth border-opacity-60 relative">
               <div className="relative ">
                 <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 bottom-0 z-10 w-max">
                   Afif Bareski
@@ -105,8 +105,8 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="basis-11/12 p-10 w-max border-x-2 border-forth border-opacity-60 relative">
+          <div className="flex flex-row md:w-max w-11/12 md:mx-0 mx-auto">
+            <div className="basis-11/12 md:p-10 w-max md:border-x-2 border-forth border-opacity-60 relative">
               <div className="relative ">
                 <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 bottom-0 z-10 w-max">
                   Gayuh Kautaman
