@@ -24,13 +24,39 @@ const Team = () => {
         </div>
       </div>
       <div className="text-forth border-x-2 border-t-2 border-forth border-opacity-60  flex flex-col">
+        <div className="relative">
+          <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 top-0 z-10 w-max ">
+            Hari Restu Septi Aji
+          </h3>
+        </div>
         <div className="m-auto z-0 p-10 w-max border-x-2 border-forth border-opacity-60">
           <Image alt={"hari"} src={hari} width={350} height={350} />
         </div>
-        <div className="relative ">
-          <h3 className="absolute left-1/2 -translate-x-1/2 bottom-0 z-10 ">
-            Hari Restu Septi Aji
-          </h3>
+        <div className="relative w-1/3 mx-auto">
+          <div className="absolute right-0 bottom-2 flex flex-row gap-5">
+            <a
+              href="https://www.instagram.com/harirestu_/?hl=fr"
+              target={"_blank"}
+              rel="noreferrer"
+              className="flex flex-row gap-2 group duration-500 overflow-hidden "
+            >
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <p className="m-auto group-hover:w-20 w-0 duration-500  ">
+                harirestu_
+              </p>
+            </a>
+            <a
+              href="mailto:hariaji.rs@gmail.com"
+              target={"_blank"}
+              rel="noreferrer"
+              className="flex flex-row gap-2 group duration-500 overflow-hidden "
+            >
+              <FontAwesomeIcon icon={faGoogle} size="2x" />
+              <p className="m-auto group-hover:w-40 w-0 duration-500  ">
+                hariaji.rs@gmail.com
+              </p>
+            </a>
+          </div>
         </div>
         <div className="flex flex-row justify-center gap-0 border-y-2 border-forth border-opacity-60">
           <div className="flex flex-row ">
@@ -43,22 +69,78 @@ const Team = () => {
               </h3>
             </div>
             <div className="basis-11/12 p-10 w-max border-l-2 border-forth border-opacity-60 relative">
+              <div className="relative ">
+                <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 bottom-0 z-10 w-max">
+                  Afif Bareski
+                </h3>
+              </div>
               <div className=" ">
                 <Image alt={"afif"} src={afif} width={350} height={350} />
               </div>
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
-                <h3>Afif Bareski</h3>
+              <div className="relative ">
+                <div className="absolute right-0 top-0 flex flex-row gap-5">
+                  <a
+                    href="https://www.instagram.com/bareski_/?hl=fr"
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                  >
+                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    <p className="m-auto group-hover:w-14 w-0 duration-500  ">
+                      bareski
+                    </p>
+                  </a>
+                  <a
+                    href="mailto:Afif.bareski@gmail.com"
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                  >
+                    <FontAwesomeIcon icon={faGoogle} size="2x" />
+                    <p className="m-auto group-hover:w-44 w-0 duration-500  ">
+                      Afif.bareski@gmail.com
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           <div className="flex flex-row">
             <div className="basis-11/12 p-10 w-max border-x-2 border-forth border-opacity-60 relative">
+              <div className="relative ">
+                <h3 className="absolute  font-sec left-1/2 -translate-x-1/2 bottom-0 z-10 w-max">
+                  Gayuh Kautaman
+                </h3>
+              </div>
               <div className="">
                 <Image alt={"gayuh"} src={gayuh} width={350} height={350} />
               </div>
-              <h3 className="absolute left-1/2 -translate-x-1/2 bottom-0 w-max">
-                Gayuh Kautaman
-              </h3>
+              <div className="relative ">
+                <div className="absolute right-0 top-0 flex flex-row gap-2">
+                  <a
+                    href="https://www.instagram.com/peii.iii/?hl=fr"
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                  >
+                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                    <p className="m-auto group-hover:w-10 w-0 duration-500  ">
+                      peii.iii
+                    </p>
+                  </a>
+                  <a
+                    href="mailto:gayuh14@yahoo.com"
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                  >
+                    <FontAwesomeIcon icon={faYahoo} size="2x" />
+                    <p className="m-auto group-hover:w-40 w-0 duration-500  ">
+                      gayuh14@yahoo.com
+                    </p>
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="basis-1/12 m-auto ">
               <h3
