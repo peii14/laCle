@@ -2,6 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import Neuromorphism from "../components/Neuromorphism";
 
 const Modal = (props: any) => {
   let [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ const Modal = (props: any) => {
         <button
           type="button"
           onClick={openModal}
-          className="rounded-full shadow-md shadow-black hover:shadow-inner bg-third duration-300 px-8 py-2 font-medium hover:text-forth hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="rounded-full shadow-md shadow-black hover:shadow-inner bg-third duration-300 px-8 py-2 font-medium  hover:bg-sec focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           {props.btn}
         </button>
@@ -79,35 +80,41 @@ const Modal = (props: any) => {
                             interested in us, feel free to ask!
                           </p>
                           <div className="flex md:flex-row flex-col w-10/12 mx-auto md:w-full justify-center md:gap-10 gap-5 my-10 text-lg text-primary">
-                            <a
-                              href="https://wa.me/33611436875"
-                              target={"_blank"}
-                              className="basis-1/2 cursor-pointer py-3 px-5 bg-third duration-500 hover:shadow-inner rounded-lg shadow-md shadow-black"
-                              rel="noreferrer"
-                            >
-                              <div className="">
-                                <div className="flex flex-row gap-3 ">
-                                  <FontAwesomeIcon
-                                    icon={faWhatsapp}
-                                    size="2x"
-                                  />
-                                  <p className="m-auto">Whatsapp</p>
-                                </div>
-                              </div>
-                            </a>
-                            <a
-                              className="basis-1/2 cursor-pointer group py-3 px-5 bg-third duration-500 hover:shadow-inner rounded-lg shadow-md shadow-black"
-                              href="mailto:lacle.guide@gmail.com"
-                              target={"_blank"}
-                              rel="noreferrer"
-                            >
-                              <div>
-                                <div className="flex flex-row gap-3 ">
-                                  <FontAwesomeIcon icon={faGoogle} size="2x" />
-                                  <p className="m-auto">Gmail</p>
-                                </div>
-                              </div>
-                            </a>
+                            <div className="basis-1/2">
+                              <Neuromorphism isMember={1}>
+                                <a
+                                  href="https://wa.me/33611436875"
+                                  target={"_blank"}
+                                  className=""
+                                  rel="noreferrer"
+                                >
+                                  <div className="flex flex-row gap-3 ">
+                                    <FontAwesomeIcon
+                                      icon={faWhatsapp}
+                                      size="2x"
+                                    />
+                                    <p className="m-auto">Whatsapp</p>
+                                  </div>
+                                </a>
+                              </Neuromorphism>
+                            </div>
+                            <div className="basis-1/2">
+                              <Neuromorphism isMember={1}>
+                                <a
+                                  href="mailto:lacle.guide@gmail.com"
+                                  target={"_blank"}
+                                  rel="noreferrer"
+                                >
+                                  <div className="flex flex-row gap-3 ">
+                                    <FontAwesomeIcon
+                                      icon={faGoogle}
+                                      size="2x"
+                                    />
+                                    <p className="m-auto">Gmail</p>
+                                  </div>
+                                </a>
+                              </Neuromorphism>
+                            </div>
                           </div>
                         </>
                       );
