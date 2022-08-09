@@ -52,7 +52,7 @@ const Autumn = () => {
       <div className="h-screen mt-2">
         <Hero content="" subTitle="" title="Autumn" image={autumn} />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
-          <div className="md:col-start-2 md:border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">
+          <div className="md:col-start-2 border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">
             <div className="absolute top-1/3 -translate-y-1/2 md:left-5 left-16 ">
               <Image alt="dot" src={dot} height={50} width={50} />
             </div>
