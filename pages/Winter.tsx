@@ -21,7 +21,7 @@ const Winter = () => {
       image: cham1,
       image2: cham2,
       content:
-        "Chamrousse is nestled in the mountains above Gerboble at Belledonne Peak. Chamrousse has a popular ski resort in France. this place is fascinating to visit because we can play in the snow and down the hill using skis along 40km-90km. Besides that, we can also climb mountains, fishing, and paragliding.",
+        "Chamrousse is nestled in the mountains above Grenoble at Belledonne Peak. Chamrousse has a popular ski resort in France. this place is fascinating to visit because we can play in the snow and down the hill using skis along 40km-90km. Besides that, we can also climb mountains, fishing, and paragliding.",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const Winter = () => {
     },
     {
       id: 4,
-      city: "Lile",
+      city: "Lille",
       image: lile1,
       image2: lile2,
       content:

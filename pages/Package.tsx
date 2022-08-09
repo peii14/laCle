@@ -42,7 +42,7 @@ const Package = () => {
     },
     {
       id: 6,
-      list: "Guides operational cost are NOT customer’s responsibility. (Transportation, enterance fee,  Versailles etc)",
+      list: "Guides operational cost are NOT customer’s responsibility. (Transportation, entrance fee,  Versailles etc)",
     },
   ];
   return (
@@ -201,7 +201,7 @@ const Package = () => {
           <div className="md:p-10 p-3">
             <h2 className="font-sec text-center">Terms and Condition</h2>
             <div className="md:mt-5 mt-2 md:px-5">
-              <p className="text-lg">cancelation:</p>
+              <p className="text-lg">cancellation:</p>
               <ul className="ml-5 list-decimal">
                 <li>
                   <p>

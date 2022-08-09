@@ -29,7 +29,7 @@ const Spring = () => {
       image: stras1,
       image2: stras2,
       content:
-        "Paris is a city known for its “city of love” and the famous Eiffel tower monument. This city is also known as the fashion city where this city has quite a lot of shopping centers. Besides that, Paris has many fascinating museums and parks to visit. It is exciting to visit the park to see various kinds of flowers in spring, such as the cherry blossom garden not far from Paris, Jardin Luxembourg, Jardin Tuileries, etc. Moreover, Paris has the most significant museum, namely the Louvre Museum, where we can spend a whole day enjoying the entire contents of this museum. In addition, there are many cute cafes to enjoy in the morning and evening.",
+        "Eastern hemisphere romantic country, France. Everyone can find a city that is renowned for its fabulous wines. As a capital of the Grand Est region, built with ancient architecture that shows its traditional culture, thus, it seems like a german building historically. Strasbourg was influenced, and it sits near the German border. There's a picturesque monument called the Gothic Cathedral Notre-Dame in the heart of the city center. Human beings love to stroll around the Quai Batelier, one of the most famous touristic places there. Turning left, we can see the beautiful river with the juvenile sitting on the river's edge. On the right side, our eyes would enjoy observing the arrangement of the old building with its distinctive style.",
     },
     {
       id: 3,
