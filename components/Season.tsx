@@ -8,7 +8,7 @@ import Neuromorphism from "./Neuromorphism";
 import Link from "next/link";
 
 const Season = (props: any) => {
-  const container = useRef(null);
+  const container: any = useRef(null);
   var animate: any = [];
   var content;
   if (props.status == 1) {
