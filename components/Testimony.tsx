@@ -58,17 +58,17 @@ const Testimony = () => {
         <div className=" m-auto">
           <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
         </div>
-        <div className={`${s.embla}`}>
+        <div className={`${s.embla} md:w-full w-2/3 mx-auto`}>
           <div className={`${s.embla__viewport}`} ref={viewportRef}>
             <div className={`${s.embla__container} `}>
               {slide.map((index: any) => (
-                <div className={`${s.embla__slide} `} key={index.id}>
-                  <div className={`${s.embla__slide__inner} `}>
-                    <p className="text-forth  text-center italic ">
+                <div className={`${s.embla__slide}`} key={index.id}>
+                  <div className={`${s.embla__slide__inner}  `}>
+                    <p className="text-forth text-center italic ">
                       {index.content}
                     </p>
                     <div className="text-forth mt-5 w-11/12 mx-auto">
-                      <p className="text-center text-sm ">{index.author}</p>
+                      <p className="text-center text-sm">{index.author}</p>
                     </div>
                   </div>
                 </div>

@@ -20,7 +20,15 @@ const Home: NextPage = () => {
   return (
     <div className="layout">
       <div className="h-screen mt-2">
-        <Hero content="" subTitle="About Us" title="la Clé" image={her} />
+        <Hero
+          content=" An Indonesian guide in France will accompany your trip while
+              providing interesting information and fun facts while visiting
+              many exciting places such as museums, galleries, and other
+              interesting buildings."
+          subTitle="The Key"
+          title="la Clé"
+          image={her}
+        />
       </div>
       <section>
         <h1 className="font-sec text-center text-forth font-thin">About Us</h1>
@@ -37,40 +45,34 @@ const Home: NextPage = () => {
               efficient travel plans, La Clé Guide is the solution.
               <br />
               <br />
-              An Indonesian guide in France will accompany your trip while
-              providing interesting information and fun facts while visiting
-              many exciting places such as museums, galleries, and other
-              interesting buildings.
-              <br />
-              <br />
               There's nothing complicated, you need to order, and on the day, an
               experienced and friendly tour guide is ready to pick you up and
               your group.
             </p>
           </div>
           <div className="mx-auto md:block hidden ">
-            <Image src={line} alt="line" height={680} width={30} />
+            <Image src={line} alt="line" height={500} width={25} />
           </div>
           <div className="basis-2/3 md:my-0 my-10">
             <h3 className="font-sec text-forth text-center">
               We Love What We Do
             </h3>
             <div className="grid grid-cols-2 mt-10 w-1/2 mx-auto font-sec text-center text-2xl gap-5">
-              <div className="flex flex-col gap-0 ">
-                <p>32</p>
+              <div className="flex flex-col gap-0 border-r-2 border-forth border-opacity-60  ">
+                <p>36</p>
                 <p>Cities</p>
               </div>
               <div className="flex flex-col gap-0 ">
-                <p>32</p>
-                <p>Cities</p>
+                <p>3</p>
+                <p>Team</p>
+              </div>
+              <div className="flex flex-col gap-0 border-forth border-opacity-60 border-r ">
+                <p>10</p>
+                <p>Guide</p>
               </div>
               <div className="flex flex-col gap-0 ">
-                <p>32</p>
-                <p>Cities</p>
-              </div>
-              <div className="flex flex-col gap-0 ">
-                <p>32</p>
-                <p>Cities</p>
+                <p>3</p>
+                <p>Photographer</p>
               </div>
             </div>
           </div>

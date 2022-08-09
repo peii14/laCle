@@ -23,10 +23,10 @@ const Hero = (props: any) => {
     <div className="h-5/6 md:w-full w-11/12 mx-auto border-2 border-forth border-opacity-60 ">
       <div className="grid md:grid-cols-3 grid-cols-1 grid-rows-3  h-full ">
         <div className="md:border-y-2  border-opacity-60 border-forth md:col-start-1 md:row-start-2 py-2 text-forth">
-          <h3 className="text-center font-sec font-extralight  ">
+          <h3 className="text-center font-sec font-extralight underline decoration-sec ">
             {props.subTitle}
           </h3>
-          <p className="text-justify">{props.content}</p>
+          <p className="text-justify md:px-5 px-10 mt-2">{props.content}</p>
         </div>
         <div className="md:border-x-2 relative h-full md:row-span-3 border-opacity-60 border-forth md:col-start-2">
           <div className="absolute md:top-1/2 md:-translate-y-1/2  ">
