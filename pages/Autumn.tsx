@@ -20,7 +20,7 @@ const Autumn = () => {
       image: mtMch2,
       image2: mtMch1,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Mont Saint-Michel is a tidal island in Normandy close to the northern coast of France. Mont Saint-Michael is one of the most interesting heritages in Europe, rich in history and wonders. Architectural forms look the same as the middle ages and have beautiful coastlines. Spending time in Mont Saint-Michael recommended at least 4 hours to visit this rocky tidal island. here are interesting places to visit: Abbaye du Mont Saint-Michel, Ramparts, Grand Rue, La Mère Poulard: The Restaurant La Mère Poulard serves Mom Poulard's culinary specialty, such as the omelet, which made following a kept recipe secret to this day.",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Autumn = () => {
       image: lyon1,
       image2: lyon2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Lyon is one large world heritage site, with a significant renaissance old town and historic industrial area. Beautiful renaissance architecture in Vieux Lyon has semi-hidden passages called traboules connecting the courtyard with the saone. The city is arguably the culinary city in the world, the city of chef Paul Bocuse who is revered as the god of French cuisine. In addition, Lyon has a beautiful botanical garden, Ancient Theater of Fourvière, Musée des Beaux-Arts de Lyon, and restaurant Lyonnaise Cuisine.",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Autumn = () => {
       image: bordeaux1,
       image2: bordeaux2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Bordeaux is classified as a city of art and history. Bordeaux is the most famous wine region in the world. Part of the land in the city is used to produce wine. Besides that this city has beautiful spots for taking pictures, tasting the typical cuisine here and we can visit the wine garden to do the wine tasting",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Autumn = () => {
       image: tours1,
       image2: tours2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Tours are the great capital of the Loire Valley. This city has old architecture like the city of Strasbourg. The city has beautiful places to visit while enjoying old buildings such as The Architecture of Fine Arts Museum, Hotel Gouïn, Tours castle, 'la Psalette' cloister, and Saint Martin Basilica. We can also rent a bicycle to walk around to visit several places on tour or, if far away, can use public transportation to St Cosme monastery, Montbazon fort, Vouvray winery, Villandry park, and Valmer park.",
     },
   ];
   return (

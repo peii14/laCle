@@ -21,7 +21,7 @@ const Winter = () => {
       image: cham1,
       image2: cham2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Chamrousse is nestled in the mountains above Gerboble at Belledonne Peak. Chamrousse has a popular ski resort in France. this place is fascinating to visit because we can play in the snow and down the hill using skis along 40km-90km. Besides that, we can also climb mountains, fishing, and paragliding.",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Winter = () => {
       image: chamonix1,
       image2: chamonix2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "The city of Chamonix is located on the French border between Switzerland and Italy. The town is famous for skiing, paragliding, and peak mont blanc. Besides skiing, paragliding, and hiking, we can go around this city because there are many exciting places. Such as the village of Chamonix-mont-blanc, which has beautiful views by cable car, and Téléphérique de l'Aiguille du Midi, which is famous for its height and slope. Other than that, we can enjoy culinary delights in this city, such as LE MONCHU RESTAURANT, renowned for its traditional dishes, and an old restaurant of more than 50 years, OMELETTERIE LA POELE RESTAURANT.",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Winter = () => {
       image: auvergne1,
       image2: auvergne2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Auvergne's capital city, Clermont Ferrand, lying at the foot of an ancient volcano. This city has a calm environment and is rich in the beauty of its natural scenery. The area has ancient castles, churches, and nice villages. There are many places for us to enjoy the natural beauty while doing hiking and cycling activities around the city. several places such as, Parc Naturel Régional des Volcans d'Auvergne, Le Puy-en-Velay with its beautiful church, and many others. We can also enjoy the very famous spa, Vichy.",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Winter = () => {
       image: lile1,
       image2: lile2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "The city is located in the Nord pas de Calais region and close to the Belgian border. Lille is the fourth largest metropolitan area in France. Many places worth visiting here, walking around the city of Lille, enjoying the beauty of ancient buildings by enjoying a local beer or typical snacks here, visiting the market, Place de Charles de Gaulle, Notre Dame de la Treille, and Palais des Beaux-Arts.",
     },
   ];
   return (

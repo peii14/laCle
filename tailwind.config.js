@@ -11,7 +11,8 @@ module.exports = {
         sec: ["'Cormorant Garamond', serif"]
       },
       height: {        
-        '2s': '120vh',      
+        '2s': '120vh', 
+        'bdy':'30rem',     
       },
       width: {        
         '2s': '200vh',      

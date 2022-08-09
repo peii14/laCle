@@ -20,7 +20,7 @@ const Summer = () => {
       image: marsille1,
       image2: marsille2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Marseille is the second largest city in France. As one of the largest ports in the Mediterranean, it makes marseille the meeting point of various nationalities. Therefore the culinary choices presented in this city are very many. Such as leblebi, tajine, and falafel. the most famous are none other than bouillabaisse, a seafood soup imported from the Mediterranean Sea with spices from various parts of the world.Marseille has a variety of exciting places to visit, namely: Basilique Notre-Dame de la Garde, Massif des Calanques, The Vieux port (old harbor), the Colorful Streets of Le Panier (Old Town), Museum of Civilizations of Europe and the Mediterranean",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Summer = () => {
       image: versaillers1,
       image2: versaillers2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "The place of Versailles or also known as the chateau de Versailles, is a former royal residence located in Versailles west of Paris. This place has various museums such as the palace contents of the French royal family and its palace surroundings such as gardens, the queen's family house, and a large lake. This place is fascinating to visit during the day. We can ride a rowing boat on a beautiful lake, take a mini train, bicycle, or buggy car to go around the Versailles environment, and watch dancing fountain shows and equestrian shows.",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Summer = () => {
       image: etretat1,
       image2: etretat2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Etretat is located in northwestern France. the city has a rich landscape of cliff views, including three natural arches and a pointed formation called L'Aiguille or the Needle, which soars 70 meters above the sea. it attracts artists such as Eugène Boudin, Gustave Courbet and Claude Monet. Besides that, Etretat has a garden related to art",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Summer = () => {
       image: nice1,
       image2: nice2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "French nice located on the french riviera, the southern coast of France. Nice is about 13 kilometers from the principality of Monaco and 30 kilometers from the Franco-Italian border. This place has a rich view of the sea, which is very clean and has exciting buildings. This city has the best photo spots, such as Parc de la Colline du Château, Vieille Ville, Musée Masséna, nice beaches, and a flea market that sells various kinds of antiques, paintings to food. The town is also close to Monte-Carlo, just a few minutes to get there. Usually, people, besides spending time in Nice, visit the area around Nice and Monte-Carlo",
     },
   ];
   return (

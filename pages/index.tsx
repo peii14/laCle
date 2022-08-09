@@ -27,22 +27,29 @@ const Home: NextPage = () => {
         <div className="flex md:flex-row flex-col gap-5 max-w-4xl mx-auto text-forth py-10 h-max">
           <div className="basis-2/3 ">
             <p className="w-11/12 mx-auto md:px-0 px-5">
-              Le lorem ipsum est, en imprimerie, une suite de mots sans
-              signification utilisée à titre provisoire pour calibrer une mise
-              en page, le texte définitif venant remplacer le faux-texte dès
-              qu'il est prêt ou que la mise en page est achevée. Généralement,
-              on utilise un texte en faux latin, le Lorem ipsum ou Lipsum. une
-              mise en page, le texte définitif venant remplacer le faux-texte
-              dès qu'il est prêt ou que la mise en page est achevée.
+              Vacationing in France is a dream for many people because of the
+              Eiffel tower, the most famous tower in the world, Chamonix with
+              its beautiful snow mountain panorama, and many more cool
+              destinations that can be visited. If you have booked your flight
+              ticket, immediately make sure that you can enjoy the whole city
+              without any hassle, no language barrier, no transportation
+              problem, no hassle with quality photos, and no hassle with
+              efficient travel plans, La Clé Guide is the solution.
               <br />
               <br />
-              Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
-              Lipsum. Le lorem ipsum est, en imprimerie, une suite de mots sans
-              signification utilisée à titre provisoire pour calibrer
+              An Indonesian guide in France will accompany your trip while
+              providing interesting information and fun facts while visiting
+              many exciting places such as museums, galleries, and other
+              interesting buildings.
+              <br />
+              <br />
+              There's nothing complicated, you need to order, and on the day, an
+              experienced and friendly tour guide is ready to pick you up and
+              your group.
             </p>
           </div>
           <div className="mx-auto md:block hidden ">
-            <Image src={line} alt="line" height={500} width={25} />
+            <Image src={line} alt="line" height={680} width={30} />
           </div>
           <div className="basis-2/3 md:my-0 my-10">
             <h3 className="font-sec text-forth text-center">

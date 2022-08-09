@@ -5,7 +5,7 @@ import spring from "../images/spring/spring.png";
 import SeasonBody from "../components/SeasonBody";
 
 import paris1 from "../images/spring/paris1.png";
-import paris2 from "../images/spring/paris2.png";
+import paris2 from "../images/spring/paris2.jpg";
 import stras1 from "../images/spring/stras1.png";
 import stras2 from "../images/spring/stras2.png";
 import marseille1 from "../images/spring/marseille1.png";
@@ -21,7 +21,7 @@ const Spring = () => {
       image: paris2,
       image2: paris1,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Paris is a city known for its “city of love” and the famous Eiffel tower monument. This city is also known as the fashion city where this city has quite a lot of shopping centers. Besides that, Paris has many fascinating museums and parks to visit. It is exciting to visit the park to see various kinds of flowers in spring, such as the cherry blossom garden not far from Paris, Jardin Luxembourg, Jardin Tuileries, etc. Moreover, Paris has the most significant museum, namely the Louvre Museum, where we can spend a whole day enjoying the entire contents of this museum. In addition, there are many cute cafes to enjoy in the morning and evening.",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Spring = () => {
       image: stras1,
       image2: stras2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Paris is a city known for its “city of love” and the famous Eiffel tower monument. This city is also known as the fashion city where this city has quite a lot of shopping centers. Besides that, Paris has many fascinating museums and parks to visit. It is exciting to visit the park to see various kinds of flowers in spring, such as the cherry blossom garden not far from Paris, Jardin Luxembourg, Jardin Tuileries, etc. Moreover, Paris has the most significant museum, namely the Louvre Museum, where we can spend a whole day enjoying the entire contents of this museum. In addition, there are many cute cafes to enjoy in the morning and evening.",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ const Spring = () => {
       image: marseille1,
       image2: marseille2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Marseille is the second largest city in France. This city has many beautiful destinations. We can enjoy outdoor dining or boating activities, and usually, in the spring season, there are many festivals ranging from music to global sailing competitions. We can enjoy the beauty of this city by hiking, cycling around the city, boating, and exploring the Calanques national park is a great way to see marseille.",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Spring = () => {
       image: giverny1,
       image2: giverny2,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "It is located about 70 km Northwest of Paris. For lovers of plants and painting, a must visit this small town. The city is lovely to walk in a while, enjoying the air surrounded by pretty flowers and country houses. Besides that, we can also visit the artist's meal, Monet, and the Museum of Impressionism.",
     },
   ];
   return (
