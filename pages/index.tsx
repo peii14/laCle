@@ -108,7 +108,7 @@ const Home: NextPage = () => {
           <Image alt="blur" src={blur} width={500} height={400} />
         </div>
       </section>
-      <section className="mt-20 md:w-1/2 w-2/3 mx-auto relative">
+      <section className="mt-20 md:w-8/12 w-2/3 mx-auto relative">
         <div className="absolute -top-5 -left-5">
           <Image alt="dot" src={dot} height={70} width={70} />
         </div>
