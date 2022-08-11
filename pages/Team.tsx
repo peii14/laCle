@@ -38,7 +38,7 @@ const Team = () => {
               href="https://www.instagram.com/harirestu_/?hl=fr"
               target={"_blank"}
               rel="noreferrer"
-              className="flex flex-row gap-2 group duration-500 overflow-hidden "
+              className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
             >
               <FontAwesomeIcon icon={faInstagram} size="2x" />
               <p className="m-auto group-hover:w-20 w-0 duration-500  ">
@@ -49,7 +49,7 @@ const Team = () => {
               href="mailto:hariaji.rs@gmail.com"
               target={"_blank"}
               rel="noreferrer"
-              className="flex flex-row gap-2 group duration-500 overflow-hidden "
+              className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
             >
               <FontAwesomeIcon icon={faGoogle} size="2x" />
               <p className="m-auto group-hover:w-40 w-0 duration-500  ">
@@ -83,7 +83,7 @@ const Team = () => {
                     href="https://www.instagram.com/bareski_/?hl=fr"
                     target={"_blank"}
                     rel="noreferrer"
-                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                    className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
                   >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                     <p className="m-auto group-hover:w-14 w-0 duration-500  ">
@@ -94,7 +94,7 @@ const Team = () => {
                     href="mailto:Afif.bareski@gmail.com"
                     target={"_blank"}
                     rel="noreferrer"
-                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                    className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
                   >
                     <FontAwesomeIcon icon={faGoogle} size="2x" />
                     <p className="m-auto group-hover:w-44 w-0 duration-500  ">
@@ -121,7 +121,7 @@ const Team = () => {
                     href="https://www.instagram.com/peii.iii/?hl=fr"
                     target={"_blank"}
                     rel="noreferrer"
-                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                    className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
                   >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                     <p className="m-auto group-hover:w-10 w-0 duration-500  ">
@@ -132,7 +132,7 @@ const Team = () => {
                     href="mailto:gayuh14@yahoo.com"
                     target={"_blank"}
                     rel="noreferrer"
-                    className="flex flex-row gap-2 group duration-500 overflow-hidden "
+                    className="flex flex-row gap-2 group hover:text-sec duration-500 overflow-hidden "
                   >
                     <FontAwesomeIcon icon={faYahoo} size="2x" />
                     <p className="m-auto group-hover:w-40 w-0 duration-500  ">

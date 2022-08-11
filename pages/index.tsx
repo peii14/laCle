@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               We Love What We Do
             </h3>
             <div className="grid grid-cols-2 mt-10 w-1/2 mx-auto font-sec text-center text-2xl gap-5">
-              <div className="flex flex-col gap-0 border-r-2 border-forth border-opacity-60  ">
+              <div className="flex flex-col gap-0  ">
                 <p>36</p>
                 <p>Cities</p>
               </div>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 <p>3</p>
                 <p>Team</p>
               </div>
-              <div className="flex flex-col gap-0 border-forth border-opacity-60 border-r ">
+              <div className="flex flex-col gap-0 ">
                 <p>10</p>
                 <p>Guide</p>
               </div>
