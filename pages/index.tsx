@@ -28,6 +28,7 @@ const Home: NextPage = () => {
           interesting buildings."
           subTitle="The Key"
           title="la Clé"
+          cp={true}
           image={her}
         />
         {/* </div> */}

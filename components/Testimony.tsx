@@ -61,42 +61,47 @@ const Testimony = () => {
 
   return (
     <div className={`${g.glassHeader} `}>
-      <div className="md:p-10 px-0 py-5 flex flex-row">
-        <div className=" m-auto">
-          <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-        </div>
-        <div className={`${s.embla} md:w-full w-2/3 mx-auto`}>
-          <div className={`${s.embla__viewport}`} ref={viewportRef}>
-            <div className={`${s.embla__container} `}>
-              {slide.map((index: any) => (
-                <div className={`${s.embla__slide}`} key={index.id}>
-                  <div className={`${s.embla__slide__inner}  `}>
-                    <div className="flex md:flex-row flex-col gap-5">
-                      <div className="basis-1/2 px-2 m-auto">
-                        <Image
-                          alt="testimony"
-                          src={index.image}
-                          // width={600}
-                          // height={200}
-                        />
-                      </div>
-                      <div className="basis-1/2 m-auto">
-                        <p className="text-forth text-center italic ">
-                          {index.content}
-                        </p>
-                        <div className="text-forth mt-5 w-11/12 mx-auto">
-                          <p className="text-center text-sm">{index.author}</p>
+      <div className="md:p-8 px-0 py-5">
+        <h2 className="text-center font-sec text-forth">Testimony</h2>
+        <div className="flex flex-row mt-3">
+          <div className=" m-auto">
+            <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+          </div>
+          <div className={`${s.embla} md:w-full w-2/3 mx-auto`}>
+            <div className={`${s.embla__viewport}`} ref={viewportRef}>
+              <div className={`${s.embla__container} `}>
+                {slide.map((index: any) => (
+                  <div className={`${s.embla__slide}`} key={index.id}>
+                    <div className={`${s.embla__slide__inner}  `}>
+                      <div className="flex md:flex-row flex-col gap-5">
+                        <div className="basis-1/2 px-2 m-auto">
+                          <Image
+                            alt="testimony"
+                            src={index.image}
+                            // width={600}
+                            // height={200}
+                          />
+                        </div>
+                        <div className="basis-1/2 m-auto">
+                          <p className="text-forth text-center italic ">
+                            {index.content}
+                          </p>
+                          <div className="text-forth mt-5 w-11/12 mx-auto">
+                            <p className="text-center text-sm">
+                              {index.author}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-        <div className=" m-auto">
-          <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+          <div className=" m-auto">
+            <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+          </div>
         </div>
       </div>
     </div>
