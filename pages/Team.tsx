@@ -13,7 +13,7 @@ import {
 const Team = () => {
   return (
     <div className="layout">
-      <div className="h-screen overflow-visible mt-2">
+      <div className="h-screen pt-16 overflow-visible m-auto flex flex-col items-center ">
         <Hero content="" title="Team" image={team} />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
           <div className="md:col-start-2  md:border-x-2 border-forth border-opacity-60 relative ">

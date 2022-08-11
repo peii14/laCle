@@ -3,6 +3,7 @@ import AnimateHeight from "react-animate-height";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import g from "../styles/Glassmorphism.module.css";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -11,7 +12,9 @@ const Navbar = () => {
     else setOpen(true);
   }
   return (
-    <nav className="text-center flex flex-row gap-5 justify-center py-5 text-forth">
+    <nav
+      className={`text-center  fixed w-screen z-50 flex flex-row gap-5 justify-center py-5 text-forth ${g.navbar} `}
+    >
       <Link href="/">
         <a className="duration-500 hover:scale-125 hover:bg-sec rounded-md hover:px-5 hover:text-primary">
           <p>Home</p>

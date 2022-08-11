@@ -49,7 +49,7 @@ const Autumn = () => {
   ];
   return (
     <div className="layout">
-      <div className="h-screen mt-2">
+      <div className="h-screen flex-col pt-16 m-auto flex items-center ">
         <Hero content="" subTitle="" title="Autumn" image={autumn} />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
           <div className="md:col-start-2 border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">

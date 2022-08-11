@@ -47,7 +47,7 @@ const Package = () => {
   ];
   return (
     <div className="layout">
-      <div className="h-screen mt-2">
+      <div className="h-screen  m-auto flex items-center ">
         <Hero content="" title="Packages" image={paris} />
       </div>
       <section>

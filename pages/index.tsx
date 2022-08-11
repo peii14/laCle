@@ -19,16 +19,18 @@ import DestinationCard from "../components/DestinationCard";
 const Home: NextPage = () => {
   return (
     <div className="layout">
-      <div className="h-screen mt-2">
+      <div className="h-screen m-auto flex items-center ">
+        {/* <div className="h-max"> */}
         <Hero
           content=" An Indonesian guide in France will accompany your trip while
-              providing interesting information and fun facts while visiting
-              many exciting places such as museums, galleries, and other
-              interesting buildings."
+          providing interesting information and fun facts while visiting
+          many exciting places such as museums, galleries, and other
+          interesting buildings."
           subTitle="The Key"
           title="la Clé"
           image={her}
         />
+        {/* </div> */}
       </div>
       <section>
         <h1 className="font-sec text-center text-forth font-thin">About Us</h1>
