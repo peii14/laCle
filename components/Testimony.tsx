@@ -62,7 +62,7 @@ const Testimony = () => {
   return (
     <div className={`${g.glassHeader} `}>
       <div className="md:p-8 px-0 py-5">
-        <h2 className="text-center font-sec text-forth">Testimony</h2>
+        <h2 className="text-center font-sec text-forth font-thin">Testimony</h2>
         <div className="flex flex-row mt-3">
           <div className=" m-auto">
             <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />

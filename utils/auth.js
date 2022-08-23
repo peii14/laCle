@@ -8,11 +8,13 @@ import axios from 'axios'
 export const login = ({ token }, remember) => {
   remember
     ? jsCookie.set("token", token, {
-        expires: 14,
-        secure: process.env.NODE_ENV === "production" ? true : false
+        expires: 1/48,
+        secure: true
       })
     : jsCookie.set("token", token, {
-        secure: process.env.NODE_ENV === "production" ? true : false
+        expires: 0.3,
+        secure:true
+        // secure: process.env.NODE_ENV === "production" ? true : false
       });
   Router.push("/Admin");
 };

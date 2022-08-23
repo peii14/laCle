@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           many exciting places such as museums, galleries, and other
           interesting buildings."
           subTitle="The Key"
-          title="la Clé"
+          title="La Clé"
           cp={true}
           image={her}
         />
@@ -92,11 +92,19 @@ const Home: NextPage = () => {
         <h1 className="font-sec text-forth text-center font-thin">
           Season Destination
         </h1>
-        <div className="z-10 grid md:grid-cols-2 grid-cols-1 gap-10 mx-auto w-7/12 mt-10">
-          <Season status={1} link="/Winter" />
-          <Season status={2} link="/Summer" />
-          <Season status={3} link="/Spring" />
-          <Season status={4} link="/Autumn" />
+        <div className="z-10 grid md:grid-cols-2 w-full grid-cols-1 gap-10 mx-auto mt-10">
+          <div className="md:w-1/2 w-2/3 mx-auto md:ml-auto md:mx-0 z-20">
+            <Season status={1} link="/Winter" />
+          </div>
+          <div className="md:w-1/2 md:mr-auto w-2/3 mx-auto md:mx-0 z-20">
+            <Season status={2} link="/Summer" />
+          </div>
+          <div className="md:w-1/2 md:ml-auto w-2/3 mx-auto md:mx-0 z-20">
+            <Season status={3} link="/Spring" />
+          </div>
+          <div className="z-20 md:w-1/2 w-2/3 mx-auto md:mx-0 md:mr-auto">
+            <Season status={4} link="/Autumn" />
+          </div>
         </div>
         <div className="absolute z-0 -top-10 ">
           <Image alt="blur" src={blur} width={700} height={700} />

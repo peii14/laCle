@@ -36,10 +36,10 @@ const Hero = (props: any) => {
         </div>
         <div className="md:border-x-2 md:mt-0 mt-4 relative h-full  md:row-span-3 border-opacity-60 border-forth md:col-start-2">
           <div className="absolute md:top-1/2 md:-translate-y-1/2  ">
-            <h1 className=" w-full font-sec absolute z-10 -translate-y-1/2 text-7xl left-1/2 -translate-x-1/2 text-center font-thin text-secondary">
+            <h1 className=" w-full font-sec absolute z-10 -translate-y-1/2 md:text-8xl text-7xl left-1/2 -translate-x-1/2 text-center font-thin text-secondary">
               {props.title}
             </h1>
-            <div className="w-8/12 absolute z-20 top-10 left-1/2">
+            <div className="w-8/12 absolute z-20 top-12 left-1/2">
               <Line />
             </div>
             <div className="overflow-hidden">
