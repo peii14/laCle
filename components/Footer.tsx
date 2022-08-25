@@ -22,7 +22,7 @@ const Footer = () => {
               >
                 <Image src={logo} priority alt="logo ITS" />
               </a>
-              <ul className="flex flex-row justify-around">
+              {/* <ul className="flex flex-row justify-around">
                 <li>
                   <a
                     href="https://www.facebook.com/barunastraits"
@@ -49,8 +49,8 @@ const Footer = () => {
                   >
                     <FontAwesomeIcon className="" icon={faInstagram} />
                   </a>
-                </li>
-              </ul>
+                </li> */}
+              {/* </ul> */}
             </div>
             <div className="flex flex-col gap-1 py-3 text-left text-sm font-thin md:w-full w-max mx-auto">
               <p>

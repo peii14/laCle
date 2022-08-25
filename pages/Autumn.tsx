@@ -50,7 +50,16 @@ const Autumn = () => {
   return (
     <div className="layout">
       <div className="h-screen flex-col pt-16 m-auto flex items-center ">
-        <Hero content="" subTitle="" title="Autumn" image={autumn} />
+        <Hero
+          content="Autumn in France marks the end of the long Summer break and the start of a transitional season towards Winter."
+          subTitle=""
+          title="Autumn"
+          image={autumn}
+          cp={2}
+          subtitle2="Temperature"
+          max="21 C"
+          min="17 C"
+        />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
           <div className="md:col-start-2 border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">
             <div className="absolute top-1/3 -translate-y-1/2 md:left-5 left-16 ">

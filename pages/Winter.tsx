@@ -51,7 +51,16 @@ const Winter = () => {
   return (
     <div className="layout">
       <div className="h-screen flex-col pt-16 m-auto flex items-center ">
-        <Hero content="" subTitle="" title="Winter" image={winter} />
+        <Hero
+          content="France is a fabulous destination year-round, but it takes on a distinctive charm of its own in winter. From snow-capped mountains and alpine ski runs to a hint of Mediterranean sun, France in winter is bound to impress and delight if you don’t have a problem with warm jackets and cozy scarves."
+          subTitle=""
+          title="Winter"
+          image={winter}
+          cp={2}
+          subtitle2="Temperature"
+          max="5 C"
+          min="-4 C"
+        />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
           <div className="md:col-start-2 border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">
             <div className="absolute top-1/3 -translate-y-1/2 md:left-5 left-16 ">

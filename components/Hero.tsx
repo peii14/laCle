@@ -7,6 +7,7 @@ import {
   faGoogle,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import temp from "../images/temp.png";
 
 const Hero = (props: any) => {
   const [offset, setOffset] = useState(0);
@@ -59,7 +60,7 @@ const Hero = (props: any) => {
         </div>
         <div className="md:border-y-2 border-opacity-60 row-start-4 md:col-start-3 border-forth md:row-start-2">
           {(() => {
-            if (props.cp) {
+            if (props.cp === 1) {
               return (
                 <div className="md:p-5 px-5 text-forth">
                   <h3 className="text-center font-sec font-thin underline decoration-sec">
@@ -101,8 +102,23 @@ const Hero = (props: any) => {
                 </div>
                 //
               );
+            } else if (props.cp === 2) {
+              return (
+                <div className="md:p-5 px-5 text-forth">
+                  <h3 className="text-center   font-sec font-thin underline decoration-sec">
+                    {props.subtitle2}
+                  </h3>
+                  <div className="mt-2 grid grid-cols-2 grid-rows-2 w-max items-center m-auto">
+                    <div className="row-span-2">
+                      <Image alt="temp" src={temp} width={50} height={100} />
+                    </div>
+                    <p>Max : {props.max}</p>
+                    <p>Min : {props.min}</p>
+                  </div>
+                </div>
+              );
             } else {
-              return <div> </div>;
+              return <div></div>;
             }
           })()}
         </div>

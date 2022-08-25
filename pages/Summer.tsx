@@ -50,7 +50,16 @@ const Summer = () => {
   return (
     <div className="layout">
       <div className="h-screen flex-col pt-16 m-auto flex items-center ">
-        <Hero content="" subTitle="" title="Summer" image={summer} />
+        <Hero
+          content="Summer in France resounds like a magic word to the French as it refers to the well-deserved holidays spent in one of the many beautiful locations in France."
+          subTitle=""
+          title="Summer"
+          image={summer}
+          cp={2}
+          subtitle2="Temperature"
+          max="35 C"
+          min="20 C"
+        />
         <div className="border-x-2 h-1/6 border-forth border-opacity-60 grid md:grid-cols-3 grid-cols-1 md:w-full w-11/12 mx-auto ">
           <div className="md:col-start-2 border-b-2 md:border-x-2 border-forth border-opacity-60 relative ">
             <div className="absolute top-1/3 -translate-y-1/2 md:left-5 left-16 ">
