@@ -104,12 +104,12 @@ const Hero = (props: any) => {
               );
             } else if (props.cp === 2) {
               return (
-                <div className="md:p-5 px-5 text-forth">
-                  <h3 className="text-center   font-sec font-thin underline decoration-sec">
+                <div className="p-5 text-forth ">
+                  <h3 className="text-center  font-sec font-thin underline decoration-sec">
                     {props.subtitle2}
                   </h3>
                   <div className="mt-2 grid grid-cols-2 grid-rows-2 w-max items-center m-auto">
-                    <div className="row-span-2">
+                    <div className="row-span-2 md:w-full w-10">
                       <Image alt="temp" src={temp} width={50} height={100} />
                     </div>
                     <p>Max : {props.max}</p>

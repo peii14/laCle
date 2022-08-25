@@ -52,7 +52,7 @@ const Winter = () => {
     <div className="layout">
       <div className="h-screen flex-col pt-16 m-auto flex items-center ">
         <Hero
-          content="France is a fabulous destination year-round, but it takes on a distinctive charm of its own in winter. From snow-capped mountains and alpine ski runs to a hint of Mediterranean sun, France in winter is bound to impress and delight if you don’t have a problem with warm jackets and cozy scarves."
+          content="From snow-capped mountains and alpine ski runs to a hint of Mediterranean sun, France in winter is bound to impress and delight if you don’t have a problem with warm jackets and cozy scarves."
           subTitle=""
           title="Winter"
           image={winter}
