@@ -201,7 +201,7 @@ const Package = () => {
           <div className="md:p-10 p-3">
             <h2 className="font-sec text-center">Terms and Condition</h2>
             <div className="md:mt-5 mt-2 md:px-5">
-              <p className="text-lg">cancellation:</p>
+              <p className="text-lg">Cancellation:</p>
               <ul className="ml-5 list-decimal">
                 <li>
                   <p>
@@ -224,6 +224,18 @@ const Package = () => {
                   <p>
                     There will be opportunities to reservate 7 days before your
                     trip, but there will be adjustment to your transport price.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="md:mt-5 mt-2 md:px-5">
+              <p className="text-lg">Working Hour:</p>
+              <ul className="ml-5 list-decimal">
+                <li>
+                  <p>
+                    Only when the customer demands any extra working hours out
+                    of the initial agreement, an additional charge to the
+                    customer will be applied.
                   </p>
                 </li>
               </ul>
