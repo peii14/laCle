@@ -11,12 +11,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>La-Cle</title>
         <meta
           name="keywords"
-          content="Barunastra derived from two words, Varuna which means the God of the sea according the belief in Hinduism, and Astra, which means weapon.
-So, the meaning of Barunastra is The Weapons God of the sea."
+          content=" An Indonesian guide in France will accompany your trip while providing interesting information and fun facts while visiting many exciting places such as museums, galleries, and other interesting buildings.
+"
         ></meta>
       </Head>
       <div className="bg-primary">
